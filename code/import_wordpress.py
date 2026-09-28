@@ -29,6 +29,22 @@ CHANGES = [
      "https://link.provoseopros.com/widget/form/N8UId4BuC3fa2010iD7a",
      "https://api.leadconnectorhq.com/widget/form/N8UId4BuC3fa2010iD7a",
      "Same SGS form, neutral address instead of the Provo-branded one"),
+    ("contact",
+     'href="/#enquiry-form"',
+     'href="#enquiry-form"',
+     "Go to Form button pointed at the homepage instead of this page's form"),
+    ("contact",
+     "<!-- FLUENT_FORM_SHORTCODE -->",
+     "<!-- SGS_ENQUIRY_FORM -->",
+     "The form WordPress never built; the site fills this spot with the enquiry form"),
+    ("privacy-policy",
+     '<h2 class="sgs-h2">7. Information Sharing</h2>',
+     '<h2 class="sgs-h2">SMS/Text Messaging</h2>\n      <p class="sgs-p">If you opt in to receive text messages from Soto Growth Systems, we collect your mobile number and use it only to send the messages you agreed to receive. Message frequency varies. Message and data rates may apply. You can opt out at any time by replying STOP, or reply HELP for help.</p>\n\n      <p class="sgs-p">No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent will not be shared with any third parties.</p>\n\n      <h2 class="sgs-h2">7. Information Sharing</h2>',
+     "Owner-supplied SMS wording for toll-free verification, 28 September 2026"),
+    ("terms-of-use",
+     '<h2 class="sgs-h2">15. Contact</h2>',
+     '<h2 class="sgs-h2">SMS Program Terms</h2>\n      <p class="sgs-p">Program: Soto Growth Systems marketing and informational text messages.</p>\n      <p class="sgs-p">By opting in, you agree to receive recurring text messages from Soto Growth Systems, including offers, resources, and appointment-related updates. Consent is not a condition of purchase.</p>\n      <p class="sgs-p">Message frequency varies. Message and data rates may apply.</p>\n      <p class="sgs-p">Reply STOP to cancel at any time. Reply HELP for help, or contact us through <a href="/contact/">sotogrowthsystems.com/contact</a>.</p>\n      <p class="sgs-p">Carriers are not liable for delayed or undelivered messages.</p>\n\n      <h2 class="sgs-h2">15. Contact</h2>',
+     "Owner-supplied SMS wording for toll-free verification, 28 September 2026"),
 ]
 
 

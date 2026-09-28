@@ -376,3 +376,22 @@ h1,h2,h3,h4,h5,h6{
 .sgsx-header a:focus-visible,.sgsx-menu summary:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px}
 @media(max-width:1320px){.sgsx-nav{display:none}.sgsx-header-btn{margin-left:auto}.sgsx-menu{display:block;margin-left:0}}
 @media(max-width:640px){.sgsx-header-btn{display:none}.sgsx-menu{margin-left:auto}.sgsx-logo img{height:32px}}
+
+/* ---------- ENQUIRY FORM (Contact page) ---------- */
+.sgsx-form{background:#fff;border:1px solid var(--bd,#E5E7EB);border-radius:12px;padding:28px;max-width:860px;margin:0 0 20px;box-shadow:0 1px 2px rgba(11,18,32,.04)}
+.sgsx-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 20px;margin-bottom:18px}
+.sgsx-field{display:grid;gap:6px;align-content:start}
+.sgsx-field--full{grid-column:1/-1}
+.sgsx-field>label{font-family:Manrope,Inter,system-ui,sans-serif;font-weight:700;color:#0B1220;font-size:.95rem}
+.sgsx-opt{font-weight:500;color:#64748B}
+.sgsx-form input[type=text],.sgsx-form input[type=email],.sgsx-form input[type=tel],.sgsx-form select,.sgsx-form textarea{width:100%;font:inherit;font-size:1rem;color:#0B1220;background:#fff;border:1px solid #CBD5E1;border-radius:8px;padding:12px 14px;min-height:48px}
+.sgsx-form textarea{resize:vertical}
+.sgsx-form input:focus-visible,.sgsx-form select:focus-visible,.sgsx-form textarea:focus-visible,.sgsx-check input:focus-visible,.sgsx-form button:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px;border-color:#2563EB}
+.sgsx-check{display:flex;gap:10px;align-items:flex-start;margin:0 0 18px}
+.sgsx-check input{flex:none;width:20px;height:20px;margin:3px 0 0;accent-color:#2563EB}
+.sgsx-check label{font-size:.9375rem;line-height:1.55;color:#334155}
+.sgsx-check--sms{margin:10px 0 0}
+.sgsx-check--sms label{font-size:.875rem;color:#475569}
+.sgsx-form button{border:none;cursor:pointer;font-family:inherit}
+.sgsx-trap{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+@media(max-width:640px){.sgsx-form{padding:20px}.sgsx-form-grid{grid-template-columns:1fr}}

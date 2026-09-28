@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { site } from "@/lib/site.config";
+import { SMS_CONSENT_TEXT } from "@/lib/enquiry-form";
 
 // Every form on this site posts here; this forwards the lead to the SGS
 // GoHighLevel inbound webhook (LEAD_WEBHOOK_URL). Until the webhook is set,
@@ -16,6 +17,17 @@ export async function POST(request: Request) {
     return NextResponse.redirect(new URL("/thank-you/", request.url), 303);
   }
   delete payload.fax_number_2;
+
+  // SMS consent proof for forms with the SMS box: an unticked box sends
+  // nothing, so record "no". Keep the exact wording and time with every lead.
+  if (payload.form === "general_enquiry") {
+    const smsConsent = payload.sms_consent === "yes" ? "yes" : "no";
+    Object.assign(payload, {
+      sms_consent: smsConsent,
+      sms_consent_text: smsConsent === "yes" ? SMS_CONSENT_TEXT : "",
+      sms_consent_at: smsConsent === "yes" ? new Date().toISOString() : "",
+    });
+  }
 
   if (!site.leadWebhook) {
     return NextResponse.json({ ok: false, error: "Lead webhook not connected. Set LEAD_WEBHOOK_URL." }, { status: 503 });
