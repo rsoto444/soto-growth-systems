@@ -45,6 +45,14 @@ CHANGES = [
      '<h2 class="sgs-h2">15. Contact</h2>',
      '<h2 class="sgs-h2">SMS Program Terms</h2>\n      <p class="sgs-p">Program: Soto Growth Systems marketing and informational text messages.</p>\n      <p class="sgs-p">By opting in, you agree to receive recurring text messages from Soto Growth Systems, including offers, resources, and appointment-related updates. Consent is not a condition of purchase.</p>\n      <p class="sgs-p">Message frequency varies. Message and data rates may apply.</p>\n      <p class="sgs-p">Reply STOP to cancel at any time. Reply HELP for help, or contact us through <a href="/contact/">sotogrowthsystems.com/contact</a>.</p>\n      <p class="sgs-p">Carriers are not liable for delayed or undelivered messages.</p>\n\n      <h2 class="sgs-h2">15. Contact</h2>',
      "Owner-supplied SMS wording for toll-free verification, 28 September 2026"),
+    ("privacy-policy",
+     "Last updated: June 3, 2026",
+     "Last updated: September 28, 2026",
+     "SMS section added; owner approved the new date"),
+    ("terms-of-use",
+     "Last updated: June 3, 2026",
+     "Last updated: September 28, 2026",
+     "SMS section added; owner approved the new date"),
 ]
 
 
