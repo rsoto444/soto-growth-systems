@@ -196,6 +196,13 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **GoHighLevel custom fields to create (SGS sub-account):** SMS Consent (sms_consent), SMS Consent Text (sms_consent_text), SMS Consent Date (sms_consent_at), Annual Revenue Range (revenue_range), Growth Constraint (growth_constraint), How Can We Help (help_topic), Privacy Consent (privacy_consent). Name, email, phone, company_name and website map to standard fields.
 - **Embeds that may still need the SMS box (edited in their own platforms):** Resources checklist form (GoHighLevel, if it asks for phone), Calendly booking (if it asks for phone), Growth Leak Score on growthleak.sotogrowthsystems.com.
 
+### Hosting and DNS (read Monday 28 September 2026)
+- **DNS:** Cloudflare (nameservers jeff/paityn.ns.cloudflare.com).
+- **Today:** root and www A records point to SiteGround (35.215.116.235), where WordPress lives.
+- **Never change:** MX (mx10/mx20/mx30.antispam.mailspamprotection.com), the google-site-verification TXT, DMARC, and growthleak.sotogrowthsystems.com (A 76.76.21.21, already on Vercel).
+- **SPF today:** "v=spf1 +a +mx include:sotogrowthsystems.com.spf.auto.dnssmarthost.net ~all". The "+a" means "the website's server may send email". When the root moves to Vercel, change "+a" to "ip4:35.215.116.235" in the same step, or email from SiteGround may start failing.
+- **Test contact:** "Test Person 2" (test2@example.com) is on DND. Keep it, never text it.
+
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
 
