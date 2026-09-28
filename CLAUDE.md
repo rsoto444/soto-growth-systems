@@ -201,7 +201,8 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Today:** root and www A records point to SiteGround (35.215.116.235), where WordPress lives.
 - **Never change:** MX (mx10/mx20/mx30.antispam.mailspamprotection.com), the google-site-verification TXT, DMARC, and growthleak.sotogrowthsystems.com (A 76.76.21.21, already on Vercel).
 - **SPF today:** "v=spf1 +a +mx include:sotogrowthsystems.com.spf.auto.dnssmarthost.net ~all". The "+a" means "the website's server may send email". When the root moves to Vercel, change "+a" to "ip4:35.215.116.235" in the same step, or email from SiteGround may start failing.
-- **Test contact:** "Test Person 2" (test2@example.com) is on DND. Keep it, never text it.
+- **Test contacts:** "Test Person 2" (test2@example.com) and "Test Person 3" (test3@example.com) are on DND. Keep them, never text them.
+- **Vercel:** project soto-growth-systems in the Soto Growth Systems team, Root Directory = website, LEAD_WEBHOOK_URL set for Production and Preview, free Web Analytics on. Address before the domain: https://soto-growth-systems.vercel.app. Production Branch is currently claude/ecstatic-dijkstra-eond0b (switch to main at publish).
 
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.

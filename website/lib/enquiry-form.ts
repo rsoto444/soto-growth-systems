@@ -16,7 +16,7 @@ const options = (list: string[]) =>
   ['<option value="" disabled selected>Choose one</option>', ...list.map((o) => `<option>${o}</option>`)].join("");
 
 export const enquiryFormHtml = `
-<form class="sgsx-form" action="/api/lead" method="post">
+<form class="sgsx-form" action="/api/lead/" method="post">
   <input type="hidden" name="form" value="general_enquiry">
   <div class="sgsx-trap" aria-hidden="true"><label for="fax_number_2">Fax number</label><input type="text" id="fax_number_2" name="fax_number_2" tabindex="-1" autocomplete="off"></div>
   <div class="sgsx-form-grid">
