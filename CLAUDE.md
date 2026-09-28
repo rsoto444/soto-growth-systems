@@ -196,4 +196,4 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
 
 ### Open issues
-- **Live Resources page sends leads to Provo SEO Pros (found Monday 28 September 2026):** its checklist form is a Provo SEO Pros GoHighLevel form (link.provoseopros.com). Checklist requests land in the Provo sub-account. The new site replaces it with an SGS form. Rich may want to move any checklist leads already in Provo.
+- **Resources page checklist form (checked Monday 28 September 2026):** the form "SGS - Resources - 10 Growth Leaks Checklist" (id N8UId4BuC3fa2010iD7a) lives in the SGS sub-account, so leads land in the right place. Only its embed link used the link.provoseopros.com white-label domain. The new site embeds the same form through the neutral api.leadconnectorhq.com address.

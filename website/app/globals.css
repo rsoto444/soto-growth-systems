@@ -1,0 +1,378 @@
+/* Site-wide styles. The two blocks below are copied from the WordPress site's
+   Additional CSS so every page looks the way it did. Header styles are new. */
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%;height:auto}
+
+/* =====================================
+   SOTO GROWTH SYSTEMS GLOBAL DESIGN
+===================================== */
+
+:root{
+  --sgs-navy:#071224;
+  --sgs-dark:#0B1220;
+  --sgs-blue:#2563EB;
+  --sgs-blue-light:#EFF6FF;
+  --sgs-slate:#334155;
+  --sgs-muted:#64748B;
+  --sgs-light:#F8FAFC;
+  --sgs-white:#FFFFFF;
+  --sgs-border:#E5E7EB;
+}
+
+/* Global Page Background */
+body{
+  background:#FFFFFF;
+}
+
+/* Content Areas */
+.site,
+.site-content,
+.content-area,
+.entry-content{
+  background:#FFFFFF;
+}
+
+/* Typography */
+body{
+  color:var(--sgs-slate);
+  font-family:Inter,sans-serif;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+  color:var(--sgs-dark);
+  font-weight:700;
+}
+
+/* Cards */
+.sgs-card{
+  background:#FFFFFF;
+  border:1px solid var(--sgs-border);
+  border-top:4px solid var(--sgs-blue);
+  border-radius:20px;
+  box-shadow:0 18px 45px rgba(15,23,42,.07);
+  transition:.25s ease;
+}
+
+.sgs-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 24px 55px rgba(15,23,42,.12);
+}
+
+/* Alternate Sections */
+.sgs-light{
+  background:var(--sgs-light);
+}
+
+/* Dark Sections */
+.sgs-dark{
+  background:linear-gradient(
+    135deg,
+    var(--sgs-navy),
+    var(--sgs-dark)
+  );
+  color:#fff;
+}
+
+/* Buttons */
+.sgs-button,
+.wp-block-button__link{
+  background:var(--sgs-blue);
+  color:#fff;
+  border-radius:10px;
+  padding:14px 28px;
+  font-weight:600;
+}
+
+.sgs-button:hover,
+.wp-block-button__link:hover{
+  opacity:.9;
+}
+
+/* Section Spacing */
+.sgs-section{
+  padding:100px 24px;
+}
+
+@media(max-width:768px){
+  .sgs-section{
+    padding:68px 20px;
+  }
+}
+
+/* ============================================================
+   SGS SHARED PAGE CSS — v1 (2026-07-30)
+   Paste into: Appearance > Customize > Additional CSS
+   (or WPCode > Add Snippet > CSS Snippet, site-wide)
+   Scoped entirely to .sgs — cannot affect existing pages.
+   If Kadence already loads Inter + Manrope, delete the two
+   @import lines below.
+   ============================================================ */
+
+.sgs{--navy:#0B1220;--navy2:#111827;--slate:#334155;--slate2:#64748B;--bg:#F8FAFC;--bd:#E5E7EB;--white:#fff;--blue:#2563EB;--gold:#D4A72C;--green:#16A34A;
+  color:var(--slate);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.7;-webkit-font-smoothing:antialiased}
+.sgs h1,.sgs h2,.sgs h3,.sgs h4{font-family:Manrope,Inter,system-ui,sans-serif;color:var(--navy);letter-spacing:-.02em;line-height:1.15;margin:0 0 .6em}
+.sgs h1{font-size:clamp(2rem,4.4vw,3.25rem);font-weight:800}
+.sgs h2{font-size:clamp(1.6rem,3vw,2.25rem);font-weight:800}
+.sgs h3{font-size:clamp(1.15rem,1.7vw,1.375rem);font-weight:700}
+.sgs p{margin:0 0 1.1rem}
+.sgs a{color:var(--blue)}
+.sgs-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.sgs-sec{padding:80px 0;border-top:1px solid var(--bd)}
+.sgs-sec--alt{background:var(--bg)}
+.sgs-sec--dark{background:var(--navy);border-top:none}
+.sgs-sec--dark h1,.sgs-sec--dark h2,.sgs-sec--dark h3{color:#fff}
+.sgs-sec--dark,.sgs-sec--dark p,.sgs-sec--dark li{color:#CBD5E1}
+.sgs-sec--hero{padding:96px 0 80px;border-top:none}
+.sgs-eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--slate2);margin:0 0 14px}
+.sgs-sec--dark .sgs-eyebrow{color:var(--gold)}
+.sgs-lead{font-size:1.1875rem;max-width:62ch}
+.sgs-sec__head{max-width:70ch;margin-bottom:40px}
+/* buttons */
+.sgs-btns{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 0}
+.sgs-btn{display:inline-block;padding:16px 28px;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none;transition:background .18s,transform .18s,border-color .18s;border:2px solid transparent}
+.sgs-btn--primary{background:var(--blue);color:#fff!important}
+.sgs-btn--primary:hover{background:#1D4ED8;transform:translateY(-1px)}
+.sgs-btn--ghost{border-color:var(--bd);color:var(--navy)!important;background:#fff}
+.sgs-btn--ghost:hover{border-color:var(--blue);color:var(--blue)!important}
+.sgs-sec--dark .sgs-btn--ghost{background:transparent;border-color:#334155;color:#fff!important}
+.sgs-sec--dark .sgs-btn--ghost:hover{border-color:var(--gold);color:var(--gold)!important}
+.sgs-btn-note{font-size:.9375rem;color:var(--slate2);margin:14px 0 0}
+/* grids + cards */
+.sgs-grid{display:grid;gap:20px}
+.sgs-grid--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sgs-grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.sgs-grid--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.sgs-card{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:28px;box-shadow:0 1px 2px rgba(11,18,32,.04)}
+.sgs-card h3{margin-bottom:.4em}
+.sgs-card p:last-child,.sgs-card ul:last-child{margin-bottom:0}
+.sgs-card--flag{border-top:4px solid var(--blue)}
+.sgs-card--gold{border-top:4px solid var(--gold)}
+.sgs-card__num{font-family:Manrope,sans-serif;font-size:.8125rem;font-weight:800;color:var(--blue);letter-spacing:.1em;margin:0 0 8px}
+.sgs-price{font-family:Manrope,sans-serif;font-size:1.5rem;font-weight:800;color:var(--navy);margin:0 0 2px}
+.sgs-price small{display:block;font-size:.875rem;font-weight:600;color:var(--slate2);letter-spacing:0}
+/* lists */
+.sgs-list{list-style:none;padding:0;margin:0 0 1.1rem}
+.sgs-list li{position:relative;padding-left:28px;margin-bottom:10px}
+.sgs-list li::before{content:"";position:absolute;left:6px;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--blue)}
+.sgs-list--check li::before{content:"✓";left:0;top:0;width:auto;height:auto;background:none;color:var(--green);font-weight:800}
+.sgs-list--x li::before{content:"—";left:0;top:0;width:auto;height:auto;background:none;color:var(--slate2);font-weight:800}
+.sgs-cols{columns:2;column-gap:40px}
+/* callouts */
+.sgs-answer{background:#fff;border-left:4px solid var(--gold);border-radius:0 10px 10px 0;padding:22px 26px;margin:0 0 24px}
+.sgs-answer p:last-child{margin-bottom:0}
+.sgs-note{font-size:.9375rem;color:var(--slate2)}
+/* table */
+.sgs-tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--bd);border-radius:12px;background:#fff}
+.sgs-table{width:100%;border-collapse:collapse;min-width:900px;font-size:.9375rem}
+.sgs-table th,.sgs-table td{text-align:left;padding:16px 18px;border-bottom:1px solid var(--bd);vertical-align:top}
+.sgs-table thead th{background:var(--navy);color:#fff;font-family:Manrope,sans-serif;font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;border-bottom:none}
+.sgs-table tbody th{font-family:Manrope,sans-serif;color:var(--navy);font-weight:800;white-space:nowrap}
+.sgs-table tr:last-child td,.sgs-table tr:last-child th{border-bottom:none}
+/* steps */
+.sgs-steps{counter-reset:s;list-style:none;padding:0;margin:0}
+.sgs-steps li{counter-increment:s;position:relative;padding:0 0 24px 62px;border-left:2px solid var(--bd);margin-left:18px}
+.sgs-steps li:last-child{border-left-color:transparent;padding-bottom:0}
+.sgs-steps li::before{content:counter(s,decimal-leading-zero);position:absolute;left:-19px;top:-2px;width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;font-family:Manrope,sans-serif;font-size:.8125rem;font-weight:800;display:flex;align-items:center;justify-content:center}
+.sgs-steps h3{margin-bottom:.25em}
+/* faq */
+.sgs-faq{border-top:1px solid var(--bd)}
+.sgs-faq details{border-bottom:1px solid var(--bd);padding:20px 0}
+.sgs-faq summary{cursor:pointer;font-family:Manrope,sans-serif;font-weight:700;color:var(--navy);font-size:1.0625rem;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.sgs-faq summary::-webkit-details-marker{display:none}
+.sgs-faq summary::after{content:"+";color:var(--blue);font-weight:800;flex:none}
+.sgs-faq details[open] summary::after{content:"–"}
+.sgs-faq details p{margin:14px 0 0;max-width:80ch}
+/* disclaimer */
+.sgs-disclaimer{font-size:.875rem;color:var(--slate2);border-top:1px solid var(--bd);padding-top:20px;max-width:80ch}
+@media(max-width:900px){.sgs-grid--3,.sgs-grid--4{grid-template-columns:repeat(2,minmax(0,1fr))}.sgs-cols{columns:1}}
+@media(max-width:640px){.sgs-sec{padding:56px 0}.sgs-sec--hero{padding:64px 0 56px}.sgs-grid--2,.sgs-grid--3,.sgs-grid--4{grid-template-columns:1fr}.sgs-btn{width:100%;text-align:center}.sgs-card{padding:22px}}
+
+
+/* ---------- FOOTER ---------- */
+
+.sgs-footer {
+  background: #0B1220;
+  color: #CBD5E1;
+  margin-top: 0;
+}
+
+.sgs-footer a {
+  color: #E2E8F0;
+  text-decoration: none;
+  transition: color .18s ease, opacity .18s ease;
+}
+
+.sgs-footer a:hover {
+  color: #FFFFFF;
+}
+
+.sgs-footer--v2 {
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.sgs-footer--v2 .sgs-footer-top {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 24px 40px;
+  display: grid;
+  grid-template-columns: 1.45fr .9fr 1fr 1.1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.sgs-footer--v2 .sgs-footer-col h3 {
+  font-family: Manrope, Inter, system-ui, sans-serif;
+  font-size: .9rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 18px;
+}
+
+.sgs-footer--v2 .sgs-footer-col p {
+  margin: 0 0 14px;
+  font-size: .98rem;
+  line-height: 1.65;
+  color: #CBD5E1;
+}
+
+.sgs-footer--v2 .sgs-footer-tagline {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.sgs-footer--v2 .sgs-footer-meta {
+  color: #94A3B8;
+  font-size: .92rem;
+}
+
+.sgs-footer--v2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sgs-footer--v2 li {
+  margin: 0 0 12px;
+}
+
+.sgs-footer--v2 li:last-child {
+  margin-bottom: 0;
+}
+
+.sgs-footer--v2 li a {
+  display: inline-block;
+  color: #CBD5E1;
+  font-weight: 500;
+}
+
+.sgs-footer--v2 li a:hover {
+  color: #FFFFFF;
+}
+
+.sgs-footer--v2 .sgs-footer-col--cta {
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.sgs-footer--v2 .sgs-footer-cta-copy {
+  margin-top: 18px;
+  color: #94A3B8;
+  font-size: .92rem;
+}
+
+.sgs-footer-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  margin-top: 8px;
+  padding: 14px 18px;
+  width: 100%;
+  border-radius: 10px;
+  background: #2563EB;
+  color: #fff !important;
+  border: 1px solid #2563EB;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .96rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  box-shadow: 0 10px 26px rgba(37,99,235,.2);
+  transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+
+.sgs-footer-btn:hover {
+  background: #1D4ED8;
+  border-color: #1D4ED8;
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(37,99,235,.24);
+}
+
+.sgs-footer--v2 .sgs-footer-bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 22px 24px 28px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: .9rem;
+  color: #94A3B8;
+}
+
+.sgs-footer--v2 .sgs-footer-bottom a {
+  color: #CBD5E1;
+}
+
+.sgs-footer--v2 .sgs-footer-bottom a:hover {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1100px) {
+  .sgs-footer--v2 .sgs-footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .sgs-footer--v2 .sgs-footer-top {
+    grid-template-columns: 1fr;
+    padding: 48px 20px 28px;
+  }
+
+  .sgs-footer--v2 .sgs-footer-col--cta {
+    padding: 20px;
+  }
+
+  .sgs-footer--v2 .sgs-footer-bottom {
+    padding: 18px 20px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* ---------- HEADER (new, same look as the WordPress header CSS) ---------- */
+.sgsx-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);border-bottom:1px solid #E5E7EB;font-family:Inter,system-ui,sans-serif}
+.sgsx-header-inner{max-width:1320px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:14px}
+.sgsx-logo{display:block;flex:0 0 auto}
+.sgsx-logo img{display:block;height:36px;width:auto}
+.sgsx-nav{display:flex;gap:2px;margin-left:auto}
+.sgsx-nav a,.sgsx-menu nav a{font-size:.95rem;font-weight:600;color:#334155;padding:10px 8px;white-space:nowrap;border-radius:8px;text-decoration:none}
+.sgsx-nav a:hover{color:#0B1220;background:#F8FAFC}
+.sgsx-header-btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:10px;background:#2563EB;color:#fff;font-weight:700;font-size:.95rem;text-decoration:none;white-space:nowrap}
+.sgsx-header-btn:hover{background:#1D4ED8}
+.sgsx-menu{display:none;margin-left:auto;position:relative}
+.sgsx-menu summary{list-style:none;cursor:pointer;font-weight:700;color:#0B1220;padding:10px 14px;border:1px solid #E5E7EB;border-radius:8px}
+.sgsx-menu summary::-webkit-details-marker{display:none}
+.sgsx-menu nav{position:absolute;right:0;top:calc(100% + 8px);background:#fff;border:1px solid #E5E7EB;border-radius:12px;box-shadow:0 18px 45px rgba(15,23,42,.12);padding:8px;display:grid;min-width:260px}
+.sgsx-header a:focus-visible,.sgsx-menu summary:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px}
+@media(max-width:1320px){.sgsx-nav{display:none}.sgsx-header-btn{margin-left:auto}.sgsx-menu{display:block;margin-left:0}}
+@media(max-width:640px){.sgsx-header-btn{display:none}.sgsx-menu{margin-left:auto}.sgsx-logo img{height:32px}}
