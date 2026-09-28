@@ -198,11 +198,12 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 
 ### Hosting and DNS (read Monday 28 September 2026)
 - **DNS:** Cloudflare (nameservers jeff/paityn.ns.cloudflare.com).
-- **Today:** root and www A records point to SiteGround (35.215.116.235), where WordPress lives.
+- **Live on Vercel since Monday 28 September 2026:** root and www are CNAME to 8b4c65bacfa452ec.vercel-dns-016.com (DNS only); www forwards to the main domain. Vercel Production Branch = main, GitHub default branch = main. Drafts go on the working branch; main changes only when the owner says "publish".
+- **WordPress backup:** wp.sotogrowthsystems.com (A 35.215.116.235, SiteGround parked domain with its own certificate). WordPress Address and Site Address changed to it, search engines discouraged. Never delete it.
 - **Never change:** MX (mx10/mx20/mx30.antispam.mailspamprotection.com), the google-site-verification TXT, DMARC, and growthleak.sotogrowthsystems.com (A 76.76.21.21, already on Vercel).
-- **SPF today:** "v=spf1 +a +mx include:sotogrowthsystems.com.spf.auto.dnssmarthost.net ~all". The "+a" means "the website's server may send email". When the root moves to Vercel, change "+a" to "ip4:35.215.116.235" in the same step, or email from SiteGround may start failing.
-- **Test contacts:** "Test Person 2" (test2@example.com) and "Test Person 3" (test3@example.com) are on DND. Keep them, never text them.
-- **Vercel:** project soto-growth-systems in the Soto Growth Systems team, Root Directory = website, LEAD_WEBHOOK_URL set for Production and Preview, free Web Analytics on. Address before the domain: https://soto-growth-systems.vercel.app. Production Branch is currently claude/ecstatic-dijkstra-eond0b (switch to main at publish).
+- **SPF:** "v=spf1 ip4:35.215.116.235 +mx include:sotogrowthsystems.com.spf.auto.dnssmarthost.net ~all" (the old "+a" swapped for SiteGround's address when the site moved, so email keeps sending).
+- **Test contacts:** "Test Person 2", "Test Person 3" and "Test Person 4" (test2/test3/test4@example.com) are on DND. Keep them, never text them.
+- **Vercel:** project soto-growth-systems in the Soto Growth Systems team, Root Directory = website, LEAD_WEBHOOK_URL set for Production and Preview, free Web Analytics on. Address before the domain: https://soto-growth-systems.vercel.app. Production Branch is main.
 
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
