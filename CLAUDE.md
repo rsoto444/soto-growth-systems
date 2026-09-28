@@ -205,6 +205,10 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Test contacts:** "Test Person 2", "Test Person 3" and "Test Person 4" (test2/test3/test4@example.com) are on DND. Keep them, never text them.
 - **Vercel:** project soto-growth-systems in the Soto Growth Systems team, Root Directory = website, LEAD_WEBHOOK_URL set for Production and Preview, free Web Analytics on. Address before the domain: https://soto-growth-systems.vercel.app. Production Branch is main.
 
+### Search Console (Monday 28 September 2026)
+- Domain property sotogrowthsystems.com (a URL-prefix property also exists). Sitemap https://sotogrowthsystems.com/sitemap.xml submitted: Success, 15 pages. No old WordPress sitemaps were listed.
+- Indexing requested for /, /implementation-options/, /growth-leak-assessment/, /book-a-strategy-call/ and /contact/ (/contact/ was "Discovered - currently not indexed" before). Check the Pages report around Friday 2 October 2026 to confirm Google re-crawled the new versions.
+
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
 
