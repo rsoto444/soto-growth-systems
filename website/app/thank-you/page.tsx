@@ -7,6 +7,9 @@ import { site } from "@/lib/site.config";
 
 export const metadata = pageMeta({ title: "Thank You | Soto Growth Systems", description: "Your message was received.", path: "/thank-you/", noindex: true });
 
+// GoHighLevel's embed script resizes the calendar by this id.
+const bookingId = site.bookingUrl.split("/").pop();
+
 export default function ThankYou() {
   return (
     <>
@@ -21,13 +24,13 @@ export default function ThankYou() {
         </section>
         <section className="sgs-sec sgs-sec--alt">
           <div className="sgs-wrap">
-            <div className="calendly-inline-widget" data-url={site.bookingUrl} style={{ minWidth: 320, height: 750, width: "100%" }} />
+            <iframe src={site.bookingUrl} id={`${bookingId}_embed`} title="Book a Growth Strategy Call" scrolling="no" style={{ width: "100%", minHeight: 750, border: "none", overflow: "hidden" }} />
             <div className="sgs-btns"><a className="sgs-btn sgs-btn--primary" target="_blank" rel="noopener" href={site.bookingUrl}>Open Scheduler in a New Tab</a></div>
           </div>
         </section>
       </main>
       <SiteFooter />
-      <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />
+      <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
     </>
   );
 }

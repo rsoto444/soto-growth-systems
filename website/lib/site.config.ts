@@ -11,9 +11,9 @@ export const site = {
   // GoHighLevel inbound webhook (SGS sub-account). Never in code: set
   // LEAD_WEBHOOK_URL in website/.env.local and in Vercel.
   leadWebhook: (process.env.LEAD_WEBHOOK_URL ?? null) as string | null,
-  // Booking calendar shown on /thank-you/. Calendly until the SGS GoHighLevel
-  // calendar exists (owner chose to switch, 28 September 2026).
-  bookingUrl: "https://calendly.com/rsoto443/30min",
+  // Booking calendar shown on /thank-you/: "SGS Strategy Call" (GoHighLevel,
+  // SGS sub-account, 30 min, Google Meet). Replaced Calendly on 28 September 2026.
+  bookingUrl: "https://api.leadconnectorhq.com/widget/booking/sYr1vrezeCL4qO8ts0wo",
   scoreUrl: "https://growthleak.sotogrowthsystems.com/",
   nav: [
     { label: "Home", href: "/" },

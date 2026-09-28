@@ -1,5 +1,5 @@
 // Renders one page carried over from WordPress: header, the owner's words
-// exactly as they were, footer. Embeds (Calendly, GoHighLevel form) get their
+// exactly as they were, footer. GoHighLevel embeds (form, calendar) get their
 // loader script here, because scripts inside page HTML never run.
 import Script from "next/script";
 import type { Metadata } from "next";
@@ -22,7 +22,6 @@ export default function WpPageView({ page }: { page: WpPage }) {
       <SiteHeader />
       <Body className="sgsx-page" dangerouslySetInnerHTML={{ __html: html }} />
       <SiteFooter />
-      {page.needs.includes("calendly") && <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />}
       {page.needs.includes("ghl-form") && <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />}
     </>
   );

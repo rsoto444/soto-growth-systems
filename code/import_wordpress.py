@@ -11,6 +11,15 @@ ROOT = Path(__file__).resolve().parent.parent
 HOME_ID = "6"  # the page WordPress served at "/"
 OUT = ROOT / "website" / "lib" / "wp-pages.json"
 
+# The SGS Strategy Call calendar (GoHighLevel, SGS sub-account), replacing
+# Calendly on every page (owner, 28 September 2026). Neutral address; the
+# owner's link used the Provo-branded white-label domain for the same calendar.
+BOOKING_ID = "sYr1vrezeCL4qO8ts0wo"
+BOOKING_URL = f"https://api.leadconnectorhq.com/widget/booking/{BOOKING_ID}"
+CALENDLY = "https://calendly.com/rsoto443/30min"
+CALENDLY_EMBED = '<div class="calendly-inline-widget" data-url="https://calendly.com/rsoto443/30min" style="min-width:320px;height:750px;min-height:750px;width:100%;"></div>'
+BOOKING_EMBED = f'<iframe src="{BOOKING_URL}" id="{BOOKING_ID}_embed" title="Book a Growth Strategy Call" scrolling="no" style="width:100%;min-height:750px;border:none;overflow:hidden;"></iframe>'
+
 # (page slug, old text, new text, why)
 CHANGES = [
     ("fractional-growth-operator",
@@ -45,6 +54,10 @@ CHANGES = [
      '<h2 class="sgs-h2">15. Contact</h2>',
      '<h2 class="sgs-h2">SMS Program Terms</h2>\n      <p class="sgs-p">Program: Soto Growth Systems marketing and informational text messages.</p>\n      <p class="sgs-p">By opting in, you agree to receive recurring text messages from Soto Growth Systems, including offers, resources, and appointment-related updates. Consent is not a condition of purchase.</p>\n      <p class="sgs-p">Message frequency varies. Message and data rates may apply.</p>\n      <p class="sgs-p">Reply STOP to cancel at any time. Reply HELP for help, or contact us through <a href="/contact/">sotogrowthsystems.com/contact</a>.</p>\n      <p class="sgs-p">Carriers are not liable for delayed or undelivered messages.</p>\n\n      <h2 class="sgs-h2">15. Contact</h2>',
      "Owner-supplied SMS wording for toll-free verification, 28 September 2026"),
+    ("book-a-strategy-call",
+     "Calls are held on Zoom.",
+     "Calls are held on Google Meet.",
+     "The SGS Strategy Call calendar uses Google Meet; owner shown before/after"),
     ("privacy-policy",
      "Last updated: June 3, 2026",
      "Last updated: September 28, 2026",
@@ -94,13 +107,17 @@ def main(xml_path):
         seo_desc = meta.get("rank_math_description") or meta.get("XAGIO_SEO_DESCRIPTION") or ""
 
         content = re.sub(r"<!-- /?wp:html -->", "", content).strip()
+        # GoHighLevel embeds (the checklist form, and the booking calendar that
+        # replaces Calendly) need form_embed.js, added by the page component.
         needs = []
-        if "assets.calendly.com" in content:
-            needs.append("calendly")
-        if "form_embed.js" in content:
+        if "form_embed.js" in content or CALENDLY_EMBED in content:
             needs.append("ghl-form")
         # Loader scripts are added by the page component; JSON-LD stays in place.
         content = re.sub(r"<script(?![^>]*application/ld\+json)[^>]*>\s*</script>", "", content)
+        # Calendly to the GoHighLevel calendar: the inline embed first, then links.
+        content = content.replace(CALENDLY_EMBED, BOOKING_EMBED).replace(CALENDLY, BOOKING_URL)
+        if "calendly" in content:
+            sys.exit(f"{slug}: a Calendly reference is left over")
 
         for cslug, old, new, _ in CHANGES:
             if cslug == slug:
