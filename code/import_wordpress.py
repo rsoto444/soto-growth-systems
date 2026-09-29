@@ -66,7 +66,7 @@ NEW_PAGES = {
     "crm-implementation-services": ("CRM Implementation Services",
         "CRM Implementation Services: Move Onto GoHighLevel | SGS",
         "CRM implementation services for owner-led businesses moving onto GoHighLevel: data migration, reconnected forms and calendars, team training.",
-        "2026-09-29", "draft"),
+        "2026-09-29", "live"),
 }
 
 CHANGES = [

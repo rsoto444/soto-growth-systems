@@ -4,9 +4,9 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: say "publish" to put the CRM implementation page live.
+Next: request indexing for the two CRM pages in Search Console.
 
-# Published · 3
+# Published · 4
 
 ## Construction business consultant · service page
 
@@ -48,7 +48,6 @@ Next: say "publish" to put the CRM implementation page live.
  - keyword-map row 4
 **Warnings:** proof is your booking-flow audit and SGS's own GoHighLevel setup, no client numbers yet. Scored 9 out of 10.
 
-# Drafts · 1
 
 ## CRM implementation services · service page
 
@@ -58,7 +57,7 @@ Next: say "publish" to put the CRM implementation page live.
 **Cluster:** standalone, paired with CRM consulting services
 **About:** the money page for owners moving onto GoHighLevel from spreadsheets or another CRM, targeting "crm implementation services".
 **Status:**
- - draft, Tuesday 29 September 2026
- - links to CRM consulting services; the link back goes in when it publishes
+ - published, Tuesday 29 September 2026
+ - linked from the footer and from CRM consulting services
  - keyword-map row 5
-**Warnings:** proof is your booking-flow audit and your confirmed migration scope, no client numbers yet. Scored 9 out of 10, ready to publish.
+**Warnings:** proof is your booking-flow audit and your confirmed migration scope, no client numbers yet. Scored 9 out of 10.
