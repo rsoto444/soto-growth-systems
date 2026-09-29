@@ -559,7 +559,7 @@
 
 **Standalone**
 
-**Page:** /small-business-consultant/ · draft, Tuesday 29 September 2026
+**Page:** /small-business-consultant/ · live, Tuesday 29 September 2026
 
 **Google check:** mixed, money page wins the term
 

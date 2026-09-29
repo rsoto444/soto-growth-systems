@@ -74,7 +74,7 @@ NEW_PAGES = {
     "small-business-consultant": ("Small Business Consultant",
         "Small Business Consultant for Established Owners | SGS",
         "Small business consultant for established owner-led businesses earning $500K+: fix sales, follow-up, CRM and processes. Published prices from $997.",
-        "2026-09-29", "draft"),
+        "2026-09-29", "live"),
 }
 
 CHANGES = [
