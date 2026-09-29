@@ -1,10 +1,12 @@
 # Your keyword map
 
-17 pages to build, in order. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+28 pages to build, in order. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 17
+# To build · 28
+
+# Service pages · 7
 
 ## 1. Service page: Fractional COO
 
@@ -154,9 +156,11 @@
 
 ---
 
+# Blog posts · 21
+
 ## 8. Blog post: What a business management consultant does
 
-**Hub** · spokes: 9 · 14
+**Hub** · spokes: 9 · 14 · 18
 
 **Google check:** passed
 
@@ -164,12 +168,11 @@
 - business management consultant · 6,600 searches a month · Easy to rank for (18 out of 100)
 
 **Secondary keywords**
+- what does a management consultant do · 6,600 a month · Easy (0)
 - what is a business management consultant · 1,900 a month · Easy (20)
 - what business consultant does · 880 a month · Easy (16)
 - business consultant cost · 140 a month · Easy (5)
 - how much does a business consultant cost · 110 a month · Easy (8)
-
-**Note:** Full pull done - 2 spokes is everything this topic decomposes into on the map today.
 
 **Why here:** the biggest term on the map, and Google treats it as a question, not a hire. It matches your Business Profile category, and it links down to every service page.
 
@@ -184,7 +187,7 @@
 **Primary keyword**
 - what is a fractional coo · 390 searches a month · Easy to rank for (0 out of 100)
 
-**Note:** Narrow family: the fractional COO searches with buyer intent all belong to page 1; this post answers the question and links there.
+**Note:** Narrow family, verified by a full pull: the fractional COO searches with buyer intent all belong to page 1; this post answers the question and links there.
 
 **Why here:** zero difficulty, and every reader is one step from page 1.
 
@@ -192,7 +195,7 @@
 
 ## 10. Blog post: Sales process stages
 
-**Hub** · spokes: 11 · 12
+**Hub** · spokes: 11 · 12 · 19 · 23 · 24 · 27
 
 **Google check:** passed
 
@@ -206,8 +209,6 @@
 - 7 steps in the sales process · 140 a month · Easy (9)
 
 **Also ranks for:** process of sales, seven steps in the sales process
-
-**Note:** Full pull done - 2 spokes is everything this topic decomposes into on the map today.
 
 **Why here:** owners who search this are usually fixing a sales process right now, which is exactly what the Blueprint does.
 
@@ -357,15 +358,224 @@
 
 ---
 
-## Keywords saved for later · 21
+## 18. Blog post: What a business strategy consultant does
 
-**Opens up as your site earns authority · 4 keywords**
-speed to lead (difficulty 33) · business consulting firms (difficulty 38) · what is an sop document (difficulty 33) · business management consulting company (difficulty 41)
+**Spoke** · hub: 8 (What a business management consultant does)
 
-**Too few searches to be worth a page · 9 keywords**
-business consultant utah · business consulting utah · business consultant salt lake city · business coach utah · sop writing services · sales process consultant · lead follow up system · fractional coo cost · kpi dashboard consultant
+**Google check:** passed
 
-**Google shows something else for these · 8 keywords**
+**Primary keyword**
+- consultant business strategy · 4,400 searches a month · Easy to rank for (7 out of 100)
+
+**Secondary keywords**
+- business strategic consultant · 1,300 a month · Easy (17)
+
+**Note:** Narrow family, verified by a full pull: 1 is everything with this intent.
+
+**Why here:** high volume at difficulty 7, and a reader comparing types of consultants is close to hiring one.
+
+---
+
+## 19. Blog post: Follow-up email after a sales call
+
+**Spoke** · hub: 10 (Sales process stages)
+
+**Google check:** passed
+
+**Primary keyword**
+- follow-up email after sales call · 9,900 searches a month · Easy to rank for (21 out of 100)
+
+**Secondary keywords**
+- sales follow up email format · 1,900 a month · Easy (10)
+- follow-up sales email subject line · 170 a month · Easy (10)
+
+**Also ranks for:** sales call follow-up email, follow-up email for sales, follow up email subject line sales
+
+**Note:** Narrow family, verified by a full pull: 2 is everything with this intent.
+
+**Why here:** the biggest new term, and weak follow-up is one of the ten Growth Leaks. Readers who need scripts need a follow-up system.
+
+---
+
+## 20. Blog post: What is an SOP in business
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- what is sop in business · 2,400 searches a month · Easy to rank for (11 out of 100)
+
+**Secondary keywords**
+- what does sop stand for in business · 1,600 a month · Easy (4)
+- what does sop mean in business · 1,000 a month · Easy (9)
+
+**Also ranks for:** sop means in business, sop in business, what is an sop in business
+
+**Note:** "what is a standard operating procedure" (22,200 a month) is bigger, but Google mixes in medical and government SOPs, so the business phrasing leads. Links to page 13.
+
+**Why here:** business owners asking this are the ones who don't have SOPs yet, which the Blueprint delivers.
+
+---
+
+## 21. Blog post: KPI vs OKR
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- kpi vs okr · 4,400 searches a month · Easy to rank for (18 out of 100)
+
+**Secondary keywords**
+- kpi and okr · 590 a month · Easy (18)
+
+**Also ranks for:** okrs vs kpi
+
+**Note:** Narrow family: 1 is everything with this intent.
+
+**Why here:** big and easy, and owners setting goals for a team are working on exactly what the Growth OS installs.
+
+---
+
+## 22. Blog post: How to scale a business
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- scaling a business · 1,300 searches a month · Easy to rank for (18 out of 100)
+
+**Secondary keywords**
+- what does scaling a business mean · 880 a month · Easy (28)
+
+**Also ranks for:** what does it mean to scale a business
+
+**Note:** Narrow family: 1 is everything with this intent.
+
+**Why here:** this is the owner-bottleneck searcher: busy, growing, and stuck doing everything. The strongest fit for SGS on the new list.
+
+---
+
+## 23. Blog post: Handling objections in sales
+
+**Spoke** · hub: 10 (Sales process stages)
+
+**Google check:** passed
+
+**Primary keyword**
+- handling objections in sales · 590 searches a month · Easy to rank for (21 out of 100)
+
+**Secondary keywords**
+- objections in sales · 480 a month · Easy (7)
+
+**Also ranks for:** overcome objections sales, how to deal with objections in sales, how to overcome objections sales
+
+**Note:** Narrow family: 1 is everything with this intent.
+
+**Why here:** one stage of the sales process, and hub 10 needs it to cover its topic.
+
+---
+
+## 24. Blog post: How to close more sales
+
+**Spoke** · hub: 10 (Sales process stages)
+
+**Google check:** passed
+
+**Primary keyword**
+- closing sales deals · 590 searches a month · Easy to rank for (16 out of 100)
+
+**Secondary keywords**
+- closing methods in sales · 480 a month · Easy (5)
+- what is closing in sales · 210 a month · Easy (19)
+
+**Also ranks for:** sales closing the deal
+
+**Note:** Narrow family: 2 is everything with this intent.
+
+**Why here:** the closing stage of hub 10, at low difficulty.
+
+---
+
+## 25. Blog post: Sales KPIs for small business
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- kpi for sales · 880 searches a month · Easy to rank for (16 out of 100)
+
+**Also ranks for:** what kpi for sales (1,300 a month, same search)
+
+**Note:** Narrow family: "sales kpi dashboard" already belongs to page 17, so it stays there.
+
+**Why here:** KPI visibility is a Growth Leak, and sales numbers are where owners feel it first. Links to page 17.
+
+---
+
+## 26. Blog post: CRM best practices
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- best practices crm · 260 searches a month · Easy to rank for (2 out of 100)
+
+**Note:** Narrow family, verified by a full pull.
+
+**Why here:** easy, and readers whose team ignores the CRM are CRM consulting clients (page 4).
+
+---
+
+## 27. Blog post: How to follow up with leads
+
+**Spoke** · hub: 10 (Sales process stages)
+
+**Google check:** passed
+
+**Primary keyword**
+- follow up with leads · 210 searches a month · Easy to rank for (4 out of 100)
+
+**Also ranks for:** follow up lead, follow up on a lead
+
+**Note:** Narrow family, verified by a full pull: speed to lead waits in saved for later until the site can rank for it.
+
+**Why here:** the follow-up stage of hub 10, and the core of the lead follow-up systems SGS installs.
+
+---
+
+## 28. Blog post: Sales pipeline vs sales funnel
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- sales pipeline vs sales funnel · 170 searches a month · Easy to rank for (9 out of 100)
+
+**Also ranks for:** sales funnel vs sales pipeline, sales pipeline vs funnel
+
+**Note:** Narrow family. Google shows different results than page 11, so it's its own short post.
+
+**Why here:** small and easy; build it last and link it to page 11.
+
+---
+
+## Keywords saved for later · 33
+
+**Opens up as your site earns authority · 7 keywords**
+speed to lead · business consulting firms · what is an sop document · business management consulting company · pipeline management · what is a business kpi · kpi for business
+
+
+**Too few searches to be worth a page · 13 keywords**
+business consultant utah · business consulting utah · business consultant salt lake city · business coach utah · how to grow an hvac business · how to grow a plumbing business · hvac business growth · how to grow a roofing business · sop writing services · sales process consultant
++ 3 more
+
+**Google shows something else for these · 13 keywords**
 - sales consulting - the top results are job listings and personal profiles
 - what is a business consultant - Google shows LinkedIn profiles, not answers
 - construction consulting services - construction project consultants, a different service
@@ -374,3 +584,8 @@ business consultant utah · business consulting utah · business consultant salt
 - contractor crm - software shoppers comparing CRM tools
 - kpi dashboard - people looking for dashboard software
 - business coach for small businesses - coaching, which SGS does not sell
+- management consultant fees - random fee documents, not buyers
+- operations management consultant - personal profiles and job pages
+- what is a business scorecard - the corporate Balanced Scorecard, a different idea
+- crm for small business - software shoppers comparing CRM tools
+- how to start an hvac business - people starting a business, not established owners
