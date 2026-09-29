@@ -553,7 +553,7 @@
 
 **Standalone**
 
-**Page:** /crm-consulting-services/ · draft, Tuesday 29 September 2026
+**Page:** /crm-consulting-services/ · live, Tuesday 29 September 2026
 
 **Google check:** passed
 

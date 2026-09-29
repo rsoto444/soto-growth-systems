@@ -62,7 +62,7 @@ NEW_PAGES = {
     "crm-consulting-services": ("CRM Consulting Services",
         "CRM Consulting Services: GoHighLevel Setup and Cleanup | SGS",
         "CRM consulting services for owner-led businesses: GoHighLevel setup, CRM cleanup, follow-up automation and team training. Diagnosis from $997.",
-        "2026-09-29", "draft"),
+        "2026-09-29", "live"),
 }
 
 CHANGES = [
