@@ -1,32 +1,10 @@
 # Your keyword map
 
-22 pages left to build, in order, and 6 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+21 pages left to build, in order, and 7 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 22
-
-# Service pages · 1
-
-## 7. Service page: Small business consultant
-
-**Standalone**
-
-**Google check:** mixed, money page wins the term
-
-**Primary keyword**
-- small business consultant · 2,400 searches a month · Easy to rank for (21 out of 100)
-
-**Secondary keywords**
-- small business consultant services · 390 a month · Easy (5)
-
-**Also ranks for:** small business consulting, consulting services for small business, small business management consulting (2,400 a month each, same search)
-
-**Note:** Narrow family: 1 is everything with this buyer's intent. Free government advice centres rank here, so this page has to say clearly who SGS is for ($500K+ owner-led businesses).
-
-**Why here:** big volume, but many searchers want free help. Worth a page, after the sharper ones above.
-
----
+# To build · 21
 
 # Blog posts · 21
 
@@ -437,7 +415,7 @@
 
 ---
 
-# Written · 6
+# Written · 7
 
 ## 1. Service page: Fractional COO
 
@@ -574,6 +552,28 @@
 **Note:** "business process management consultant" has more searches, but Google shows mostly personal profiles for it, so the improvement phrase leads.
 
 **Why here:** SOPs, sales process and follow-up systems all sit under this, and the buyers are owners who know something is broken.
+
+---
+
+## 7. Service page: Small business consultant
+
+**Standalone**
+
+**Page:** /small-business-consultant/ · draft, Tuesday 29 September 2026
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- small business consultant · 2,400 searches a month · Easy to rank for (21 out of 100)
+
+**Secondary keywords**
+- small business consultant services · 390 a month · Easy (5)
+
+**Also ranks for:** small business consulting, consulting services for small business, small business management consulting (2,400 a month each, same search)
+
+**Note:** Narrow family: 1 is everything with this buyer's intent. Free government advice centres rank here, so this page has to say clearly who SGS is for ($500K+ owner-led businesses).
+
+**Why here:** big volume, but many searchers want free help. Worth a page, after the sharper ones above.
 
 ---
 

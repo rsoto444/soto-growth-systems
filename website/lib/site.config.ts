@@ -32,6 +32,7 @@ export const site = {
     { label: "CRM Consulting", href: "/crm-consulting-services/" },
     { label: "CRM Implementation", href: "/crm-implementation-services/" },
     { label: "Process Improvement", href: "/business-process-improvement-consultant/" },
+    { label: "Small Business Consulting", href: "/small-business-consultant/" },
     { label: "For Contractors", href: "/construction-business-consultant/" },
   ],
   company: [

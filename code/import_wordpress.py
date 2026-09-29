@@ -71,6 +71,10 @@ NEW_PAGES = {
         "Business Process Improvement Consultant for Owners | SGS",
         "Business process improvement consultant for owner-led businesses: sales, delivery, finance, HR and admin processes fixed with SOPs. From $997.",
         "2026-09-29", "live"),
+    "small-business-consultant": ("Small Business Consultant",
+        "Small Business Consultant for Established Owners | SGS",
+        "Small business consultant for established owner-led businesses earning $500K+: fix sales, follow-up, CRM and processes. Published prices from $997.",
+        "2026-09-29", "draft"),
 }
 
 CHANGES = [

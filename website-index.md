@@ -4,7 +4,7 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: request indexing for the process improvement page and the contractors page in Search Console.
+Next: say "publish" to put the small business consultant page live.
 
 # Published · 5
 
@@ -75,3 +75,18 @@ Next: request indexing for the process improvement page and the contractors page
  - linked from the footer on every page
  - keyword-map row 6
 **Warnings:** proof is your booking-flow audit, no client numbers yet. Scored 9 out of 10.
+
+# Drafts · 1
+
+## Small business consultant · service page
+
+**Route:**
+ - /small-business-consultant/
+ - [preview](http://localhost:4321/small-business-consultant/)
+**Cluster:** standalone, links down to the four focused service pages
+**About:** the broad money page for established small businesses earning about $500K or more, targeting "small business consultant". Sends startups to free SBDC help.
+**Status:**
+ - draft, Tuesday 29 September 2026
+ - footer link appears when it goes live
+ - keyword-map row 7
+**Warnings:** proof is your booking-flow audit, no client numbers yet. Scored 9 out of 10, ready to publish.
