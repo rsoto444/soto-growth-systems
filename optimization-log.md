@@ -26,3 +26,12 @@ Rules:
 ---
 
 <!-- Entries begin below. Newest first. -->
+
+## Tuesday 29 September 2026 · /fractional-growth-operator/
+
+**Target:** fractional coo (retargeted from "fractional growth operator")
+**Checks:** Head tags 6/8 → 8/8 · Headings 3/5 → 4/5 · Keyword placement 3/5 → 4/5 · AI readiness 26/31 → 26/31 · loop count: 1
+**Lighthouse (mobile, median of 3):** Perf 97 → 97 · SEO 100 → 100 · A11y 100 → 100 · BP 96 → 96 (test machine only)
+**GSC baseline (last 28 days):** waiting on Rich's paste. This page was not in the Search Console pages export on Monday 28 September.
+**Shelf-life fixes:** none
+**Re-measure on:** Tuesday 10 November 2026 → _(fill in: clicks, impressions, avg position, and the delta)_

@@ -21,7 +21,7 @@ export default function WpPageView({ page }: { page: WpPage }) {
   return (
     <>
       {page.path !== "/" && <JsonLd data={breadcrumbSchema(page.name, page.path)} />}
-      {offer && <JsonLd data={serviceSchema(offer.name, page.description, page.path, offer.price, offer.priceNote)} />}
+      {offer && <JsonLd data={serviceSchema(offer.name, page.description, page.path, offer.price, offer.priceNote, offer)} />}
       <SiteHeader />
       <Body className="sgsx-page" dangerouslySetInnerHTML={{ __html: html }} />
       <SiteFooter />

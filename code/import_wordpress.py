@@ -27,7 +27,7 @@ SEO_META = {
     'about-rich': ('Rich Soto: Founder of Soto Growth Systems, Provo, Utah', 'Rich Soto founded Soto Growth Systems and has run Provo SEO Pros since 2001. See how he helps owner-led businesses find and fix the leaks that stall growth.'),
     'book-a-strategy-call': ('Book a Free Growth Strategy Call | Soto Growth Systems', 'Book a free 30-minute growth strategy call with Soto Growth Systems to find where your business is losing revenue to broken growth systems. Pick a time.'),
     'contact': ('Contact Soto Growth Systems | Call, Email or Book a Call', 'Contact Soto Growth Systems in Provo, Utah. Call +1 833-854-0901, book a strategy call, take the free Growth Leak Score, or send a general enquiry.'),
-    'fractional-growth-operator': ('Fractional Growth Operator™ | Keep Your Growth OS Running', 'A Fractional Growth Operator keeps your Growth OS running after it is built, from $5,500 a month: KPI reviews, pipeline checks and monthly reporting.'),
+    'fractional-growth-operator': ('Fractional COO Services for Owner-Led Businesses | SGS', 'Fractional COO services for owner-led businesses: we run your KPI reviews, pipeline checks and monthly reporting after the build. From $5,500 a month.'),
     'growth-leak-assessment': ('Growth Leak Assessment: Free Score or $997 Expert Review', 'Growth Leak Assessment options: take the free 10-question Growth Leak Score, or book the Professional Growth Leak Assessment™ from $997. See which fits.'),
     'growth-os-blueprint': ('Growth OS Blueprint™: Self-Implementation From $7,500', 'The Growth OS Blueprint™ diagnoses, designs and documents your Growth Operating System in 4 to 6 weeks, from $7,500 one-time. Your own team implements it.'),
     'growth-os-implementation-draft-v2': ('Growth OS Guided Implementation™: Done-With-You Build', 'Growth OS Guided Implementation™ builds your Growth OS with your team in 90 days, from $18,000 setup plus $4,500 a month with a 3-month minimum.'),
@@ -91,6 +91,7 @@ CHANGES = [
     ("growth-os-implementation", '<h1 id="implementation-title">Turn', '<h1 id="implementation-title">Growth OS Implementation: Turn', "Page name in the headline"),
     ("growth-os-managed-implementation", "<h1>A Done For You", "<h1>Managed Implementation: A Done For You", "Page name in the headline"),
     ("resources", "<h1>Growth Infrastructure Resources", "<h1>Growth Leaks Checklist and Growth Infrastructure Resources", "Page name in the headline"),
+    ("fractional-growth-operator", "<h1>Fractional Growth Operator: The", "<h1>Fractional Growth Operator (Fractional COO): The", "Target keyword in the headline, owner approved fractional COO 29 September 2026"),
     ("soto-growth-os", "          Connect the systems that make growth possible", "          Soto Growth OS™: Connect the systems that make growth possible", "Page name in the headline"),
     # Facts corrected to match the calendar, phone and in-person meetings, owner approved 29 September 2026.
     ("book-a-strategy-call", "<p>Zoom. A link is included in your calendar confirmation", "<p>Google Meet. A link is included in your calendar confirmation", "Calendar uses Google Meet"),

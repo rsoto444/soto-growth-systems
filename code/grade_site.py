@@ -15,7 +15,7 @@ PERF = dict(x.split("=") for x in sys.argv[3].split(",")) if len(sys.argv) > 3 e
 # Working keyword per page: the offer or page name (no keyword map exists yet).
 KW = {
     "/": "growth leaks", "/about-rich/": "rich soto", "/book-a-strategy-call/": "growth strategy call",
-    "/contact/": "contact soto growth systems", "/fractional-growth-operator/": "fractional growth operator",
+    "/contact/": "contact soto growth systems", "/fractional-growth-operator/": "fractional coo",
     "/growth-leak-assessment/": "growth leak assessment", "/growth-os-blueprint/": "growth os blueprint",
     "/growth-os-guided-implementation/": "guided implementation", "/growth-os-implementation-draft-v2/": "guided implementation", "/growth-os-implementation/": "growth os implementation",
     "/growth-os-managed-implementation/": "managed implementation", "/implementation-options/": "implementation options",

@@ -1,14 +1,14 @@
 // Service schema for the offer pages: what each page sells and its published
 // starting price, in the owner's words (CLAUDE.md "My setup"). Prices change
 // here and on the page together, never one without the other.
-type OfferInfo = { name: string; price?: number; priceNote?: string };
+type OfferInfo = { name: string; price?: number; priceNote?: string; alternateName?: string[]; serviceType?: string };
 
 export const offerSchemaByPath: Record<string, OfferInfo> = {
   "/growth-leak-assessment/": { name: "Professional Growth Leak Assessment™", price: 997, priceNote: "Starting price. Credited toward a Growth OS Blueprint™ if bought within 90 days." },
   "/growth-os-blueprint/": { name: "Growth OS Blueprint™", price: 7500, priceNote: "Starting price, one-time, 4 to 6 weeks." },
   "/growth-os-guided-implementation/": { name: "Growth OS Guided Implementation™", price: 18000, priceNote: "Starting at $18,000 setup plus $4,500 per month, 3-month minimum." },
   "/growth-os-managed-implementation/": { name: "Growth OS Managed Implementation™", price: 35000, priceNote: "Starting at $35,000 setup plus $8,500 per month, 6-month minimum." },
-  "/fractional-growth-operator/": { name: "Fractional Growth Operator™", price: 5500, priceNote: "Starting at $5,500 per month, 6-month minimum, no setup fee." },
+  "/fractional-growth-operator/": { name: "Fractional Growth Operator™", price: 5500, priceNote: "Starting at $5,500 per month, 6-month minimum, no setup fee.", alternateName: ["Fractional COO", "Fractional COO services"], serviceType: "Fractional COO services" },
   "/growth-os-implementation/": { name: "Growth OS Implementation™" },
   "/implementation-options/": { name: "Growth OS implementation options" },
   "/soto-growth-os/": { name: "Soto Growth OS™" },

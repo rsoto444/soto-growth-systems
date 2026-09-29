@@ -44,11 +44,13 @@ export const founderSchema = {
   sameAs: ["https://provoseopros.com/"],
 };
 
-export function serviceSchema(name: string, description: string, path: string, price?: number, priceNote?: string) {
+export function serviceSchema(name: string, description: string, path: string, price?: number, priceNote?: string, extra?: { alternateName?: string[]; serviceType?: string }) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
     name,
+    ...(extra?.alternateName ? { alternateName: extra.alternateName } : {}),
+    ...(extra?.serviceType ? { serviceType: extra.serviceType } : {}),
     description,
     url: `${site.url}${path}`,
     provider: { "@id": ORG_ID },
