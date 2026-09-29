@@ -228,6 +228,7 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Services on the map:** the 7 offers above, in buyer words: business growth consulting, sales process design, CRM setup and cleanup, lead follow-up systems, KPI dashboards, SOPs, fractional COO (owner confirmed the Fractional Growth Operator is sold as fractional COO work).
 - **Lead industry:** contractors and home services. Rich has personally worked with HVAC, solar, roofing and concrete businesses through Provo SEO Pros since 2001 (owner, 29 September 2026). SGS also takes plumbing and electrical owners (no past-experience claim for those two).
 - **CRM specialty:** GoHighLevel (owner, 29 September 2026). Pages never claim expertise in other CRMs. SGS runs its own website enquiries, booking calendar and pipeline on GoHighLevel.
+- **CRM migration (owner, 29 September 2026):** when moving a client onto GoHighLevel, SGS can bring over contacts from spreadsheets or phones, contacts from another CRM, open deals and their stage, past notes and history, and reconnect existing forms, phone numbers and calendars. What moves is confirmed per job in the scope.
 - **Never target:** appointment setting, SEO/ads/websites/social (that is Provo SEO Pros), jobs/careers/setter hiring, software shopping terms.
 - **Data:** DataForSEO login in .env (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). Semrush has no API units. Backlink authority not available, so blog posts use the flat difficulty ceiling of 30.
 

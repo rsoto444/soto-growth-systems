@@ -63,6 +63,10 @@ NEW_PAGES = {
         "CRM Consulting Services: GoHighLevel Setup and Cleanup | SGS",
         "CRM consulting services for owner-led businesses: GoHighLevel setup, CRM cleanup, follow-up automation and team training. Diagnosis from $997.",
         "2026-09-29", "live"),
+    "crm-implementation-services": ("CRM Implementation Services",
+        "CRM Implementation Services: Move Onto GoHighLevel | SGS",
+        "CRM implementation services for owner-led businesses moving onto GoHighLevel: data migration, reconnected forms and calendars, team training.",
+        "2026-09-29", "draft"),
 }
 
 CHANGES = [

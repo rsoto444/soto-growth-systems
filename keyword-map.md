@@ -1,30 +1,12 @@
 # Your keyword map
 
-24 pages left to build, in order, and 4 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+23 pages left to build, in order, and 5 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 24
+# To build · 23
 
-# Service pages · 3
-
-## 5. Service page: CRM implementation services
-
-**Standalone**
-
-**Google check:** passed
-
-**Primary keyword**
-- crm implementation services · 260 searches a month · Easy to rank for (0 out of 100)
-
-**Secondary keywords**
-- crm implementation consultant · 50 a month · Easy (2)
-
-**Note:** Narrow family: 1 is everything with this buyer's intent. Google shows a different set of results than page 4, so it is its own page.
-
-**Why here:** same buyer as page 4 at the moment they're ready to install a CRM. Build it after page 4 so the two link to each other.
-
----
+# Service pages · 2
 
 ## 6. Service page: Business process improvement consultant
 
@@ -475,7 +457,7 @@
 
 ---
 
-# Written · 4
+# Written · 5
 
 ## 1. Service page: Fractional COO
 
@@ -570,6 +552,26 @@
 **Note:** Narrow family: 3 is everything with this buyer's intent. "crm consultant" (590 a month) is bigger, but Google shows job listings and salaries for it.
 
 **Why here:** CRM setup and cleanup is work inside every implementation, and the people searching this are hiring help, not shopping for software.
+
+---
+
+## 5. Service page: CRM implementation services
+
+**Standalone**
+
+**Page:** /crm-implementation-services/ · draft, Tuesday 29 September 2026
+
+**Google check:** passed
+
+**Primary keyword**
+- crm implementation services · 260 searches a month · Easy to rank for (0 out of 100)
+
+**Secondary keywords**
+- crm implementation consultant · 50 a month · Easy (2)
+
+**Note:** Narrow family: 1 is everything with this buyer's intent. Google shows a different set of results than page 4, so it is its own page.
+
+**Why here:** same buyer as page 4 at the moment they're ready to install a CRM. Build it after page 4 so the two link to each other.
 
 ---
 
