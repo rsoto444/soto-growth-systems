@@ -67,6 +67,10 @@ NEW_PAGES = {
         "CRM Implementation Services: Move Onto GoHighLevel | SGS",
         "CRM implementation services for owner-led businesses moving onto GoHighLevel: data migration, reconnected forms and calendars, team training.",
         "2026-09-29", "live"),
+    "business-process-improvement-consultant": ("Business Process Improvement Consultant",
+        "Business Process Improvement Consultant for Owners | SGS",
+        "Business process improvement consultant for owner-led businesses: sales, delivery, finance, HR and admin processes fixed with SOPs. From $997.",
+        "2026-09-29", "draft"),
 }
 
 CHANGES = [

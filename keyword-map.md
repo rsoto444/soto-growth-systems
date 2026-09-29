@@ -1,32 +1,12 @@
 # Your keyword map
 
-23 pages left to build, in order, and 5 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+22 pages left to build, in order, and 6 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 23
+# To build · 22
 
-# Service pages · 2
-
-## 6. Service page: Business process improvement consultant
-
-**Standalone**
-
-**Google check:** mixed, money page wins the term
-
-**Primary keyword**
-- business process improvement consultant · 320 searches a month · Easy to rank for (0 out of 100)
-
-**Secondary keywords**
-- business process management consultant · 390 a month · Easy (0)
-- operational efficiency consultant · 170 a month · Easy (0)
-- consultant business process · 170 a month · Easy (0)
-
-**Note:** "business process management consultant" has more searches, but Google shows mostly personal profiles for it, so the improvement phrase leads.
-
-**Why here:** SOPs, sales process and follow-up systems all sit under this, and the buyers are owners who know something is broken.
-
----
+# Service pages · 1
 
 ## 7. Service page: Small business consultant
 
@@ -457,7 +437,7 @@
 
 ---
 
-# Written · 5
+# Written · 6
 
 ## 1. Service page: Fractional COO
 
@@ -572,6 +552,28 @@
 **Note:** Narrow family: 1 is everything with this buyer's intent. Google shows a different set of results than page 4, so it is its own page.
 
 **Why here:** same buyer as page 4 at the moment they're ready to install a CRM. Build it after page 4 so the two link to each other.
+
+---
+
+## 6. Service page: Business process improvement consultant
+
+**Standalone**
+
+**Page:** /business-process-improvement-consultant/ · draft, Tuesday 29 September 2026
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- business process improvement consultant · 320 searches a month · Easy to rank for (0 out of 100)
+
+**Secondary keywords**
+- business process management consultant · 390 a month · Easy (0)
+- operational efficiency consultant · 170 a month · Easy (0)
+- consultant business process · 170 a month · Easy (0)
+
+**Note:** "business process management consultant" has more searches, but Google shows mostly personal profiles for it, so the improvement phrase leads.
+
+**Why here:** SOPs, sales process and follow-up systems all sit under this, and the buyers are owners who know something is broken.
 
 ---
 

@@ -13,6 +13,7 @@ export const offerSchemaByPath: Record<string, OfferInfo> = {
   "/business-growth-consultant/": { name: "Business growth consulting", price: 997, priceNote: "Starts with the Professional Growth Leak Assessment™ from $997.", alternateName: ["Growth consultant", "Growth strategy consulting"], serviceType: "Business growth consulting" },
   "/crm-consulting-services/": { name: "CRM consulting services", price: 997, priceNote: "Starts with the Professional Growth Leak Assessment™ from $997.", alternateName: ["CRM system consultant", "CRM cleanup", "CRM setup services", "GoHighLevel setup"], serviceType: "CRM consulting services" },
   "/crm-implementation-services/": { name: "CRM implementation services", price: 18000, priceNote: "Guided Implementation starts at $18,000 setup plus $4,500 per month.", alternateName: ["CRM implementation consultant", "GoHighLevel implementation"], serviceType: "CRM implementation services" },
+  "/business-process-improvement-consultant/": { name: "Business process improvement consulting", price: 997, priceNote: "Starts with the Professional Growth Leak Assessment™ from $997.", alternateName: ["Business process management consultant", "Operational efficiency consultant"], serviceType: "Business process improvement consulting" },
   "/growth-os-implementation/": { name: "Growth OS Implementation™" },
   "/implementation-options/": { name: "Growth OS implementation options" },
   "/soto-growth-os/": { name: "Soto Growth OS™" },
