@@ -79,8 +79,8 @@ These match your strategy call calendar. Holidays: set special hours in the prof
 ## 6. Photos
 
 Upload these first. Real photos only; no stock faces.
-- **Logo:** the SGS logo (square version: the "SGS" mark). I can export a 720 by 720 pixel file for you.
-- **Cover:** a wide photo of you working with a client or at a whiteboard, 1080 by 608 pixels.
+- **Logo:** gbp-photos/logo-sgs-720.png (the "SGS" mark, 720 by 720 pixels)
+- **Cover:** gbp-photos/cover-growth-workflow-board.jpg (1080 by 608). Stock for now; swap for a real photo of you with a client when you have one.
 - **Team:** your headshot. The Provo SEO Pros headshot is a real photo of you and can be reused.
 - **At work:** 3 to 5 real photos from client sessions, workshops or your workspace, added over the first month.
 
@@ -103,7 +103,7 @@ Only list cities where you'd actually drive to meet a client. National clients k
 
 ## 9. Products (7)
 
-Each product needs a photo before it shows as a tile. **Photos: 1 of 8 ready.** gbp-photos/growth-leak-score-chart-desk.jpg (free licence, no credit needed) goes on the Growth Leak Score. The rest wait on a free Pexels key, because the other free photos found require a visible credit line, which a Business Profile can't show.
+Each product needs a photo before it shows as a tile. **All 7 are ready in gbp-photos/**, one per product, named after it. They are stock work scenes with no faces, free to use with no credit needed (Pexels licence, plus one CC0). Swap each for a real photo of SGS work when you have one.
 
 **Growth Leak Score** · Free
 - Category: Assessment
