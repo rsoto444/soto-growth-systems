@@ -169,7 +169,7 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Growth OS Blueprint™ (self-implementation):** starting at $7,500 one-time, 4 to 6 weeks
 - **Growth OS Guided Implementation™ (done-with-you):** starting at $18,000 setup + $4,500/month, 3-month minimum
 - **Growth OS Managed Implementation™ (done-for-you):** starting at $35,000 setup + $8,500/month, 6-month minimum. Larger or multi-location: $50,000 to $75,000 setup + $12,000 to $18,000/month.
-- **Fractional Growth Operator™:** starting at $5,500/month, 6-month minimum, no setup fee (owner chose this Monday 28 September 2026). Stays positioned as the follow-on layer after an implementation, not a peer tier. The price replaces only the "scope and price confirmed on a call" line.
+- **Fractional Growth Operator™:** starting at $5,500/month, 6-month minimum, no setup fee (owner chose this Monday 28 September 2026). Stays positioned as the follow-on layer after an implementation, not a peer tier. The price replaces only the "scope and price confirmed on a call" line. Scope is the growth system only (KPIs, pipeline, follow-up, CRM, accountability), never finance, HR or fulfilment (owner, 29 September 2026). Targets "fractional coo", published 29 September 2026.
 - **Main call:** Growth Strategy Call, 30 minutes
 - **Best fit:** owner-led businesses earning about $500K or more a year
 - **Not offered:** appointment setting as a service. Keep the site on the Growth OS offer only.
