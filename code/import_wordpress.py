@@ -4,7 +4,8 @@ Words are copied exactly. The only changes are listed in CHANGES below, each
 one approved by the owner, and every change must match exactly once or the
 script stops. Run: python3 code/import_wordpress.py path/to/export.xml
 """
-import html, json, re, sys
+import html
+import os, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -53,7 +54,7 @@ NEW_PAGES = {
     "construction-business-consultant": ("Construction Business Consultant",
         "Construction Business Consultant for Contractors | SGS",
         "Construction business consultant for HVAC, plumbing, roofing and solar contractors: fix slow replies, lost estimates and CRM gaps. Diagnosis from $997.",
-        "2026-09-29"),
+        "2026-09-29", "draft"),  # 8/10, no proof yet: stays out of the live site
 }
 
 CHANGES = [
@@ -108,6 +109,14 @@ CHANGES = [
      '      <details>\n        <summary>How is this different from hiring a full-time or outsourced COO?</summary>\n'
      '        <p>A full-time chief operating officer is a permanent executive hire. A Fractional Growth Operator is a part-time, outsourced COO role with a fixed operating cadence, starting at $5,500 a month with a 6-month minimum and no setup fee. Scope is confirmed before it starts.</p>\n      </details>\n',
      "Two fractional COO FAQ answers, owner approved 29 September 2026"),
+    ("fractional-growth-operator",
+     "<p>No. It is included in Growth OS Managed Implementation™ and, as a standalone engagement, is scoped after an implementation phase or during a strategy call based on complexity and cadence.</p>",
+     "<p>Yes. It starts at $5,500 per month with a 6-month minimum and no setup fee. It is also included in Growth OS Managed Implementation™.</p>",
+     "Price is published, owner approved 29 September 2026"),
+    ("fractional-growth-operator",
+     "Standalone pricing for the Fractional Growth Operator function is not published.",
+     "Standalone pricing for the Fractional Growth Operator function starts at $5,500 per month.",
+     "Price is published, owner approved 29 September 2026"),
     ("soto-growth-os", "          Connect the systems that make growth possible", "          Soto Growth OS™: Connect the systems that make growth possible", "Page name in the headline"),
     # Facts corrected to match the calendar, phone and in-person meetings, owner approved 29 September 2026.
     ("book-a-strategy-call", "<p>Zoom. A link is included in your calendar confirmation", "<p>Google Meet. A link is included in your calendar confirmation", "Calendar uses Google Meet"),
@@ -207,7 +216,9 @@ def main(xml_path):
         })
     # Pages written after the move (by /service-page and /blog-post) live in
     # website/content/pages/<slug>.html; their titles and descriptions sit in NEW_PAGES.
-    for slug, (name, seo_title, seo_desc, date) in NEW_PAGES.items():
+    for slug, (name, seo_title, seo_desc, date, status) in NEW_PAGES.items():
+        if status == "draft" and os.environ.get("SGS_DRAFTS") != "1":
+            continue
         content = (ROOT / "website" / "content" / "pages" / f"{slug}.html").read_text(encoding="utf-8")
         content = re.sub(r"^<!--.*?-->\s*", "", content, flags=re.S).strip()
         pages.append({"path": f"/{slug}/", "oldPath": None, "title": seo_title, "description": seo_desc, "name": name,

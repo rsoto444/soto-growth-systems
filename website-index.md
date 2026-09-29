@@ -4,7 +4,7 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: say "publish" to put the contractors page live.
+Next: the contractors page waits on one real contractor example before it can go live.
 
 # Drafts · 1
 
@@ -19,4 +19,4 @@ Next: say "publish" to put the contractors page live.
  - draft, Tuesday 29 September 2026
  - linked from the footer on every page
  - keyword-map row 2
-**Warnings:** written without real proof. Swap in client numbers and reviews when you have them.
+**Warnings:** written without real proof, scored 8 out of 10, so it stays off the live site. Send one real contractor example and it can go live.

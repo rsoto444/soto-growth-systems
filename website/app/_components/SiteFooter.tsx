@@ -1,5 +1,6 @@
 // Shared footer, using the footer styles from the WordPress site's CSS.
 import { site } from "@/lib/site.config";
+import { wpPage } from "@/lib/pages";
 
 export default function SiteFooter() {
   const tel = site.phone.replace(/[^+\d]/g, "");
@@ -13,7 +14,7 @@ export default function SiteFooter() {
         </div>
         <div className="sgs-footer-col">
           <h3>Offers</h3>
-          <ul>{site.offers.map((o) => <li key={o.href}><a href={o.href}>{o.label}</a></li>)}</ul>
+          <ul>{site.offers.filter((o) => wpPage(o.href)).map((o) => <li key={o.href}><a href={o.href}>{o.label}</a></li>)}</ul>
         </div>
         <div className="sgs-footer-col">
           <h3>Company</h3>
