@@ -32,6 +32,9 @@ Rules:
 **Target:** fractional coo (retargeted from "fractional growth operator")
 **Checks:** Head tags 6/8 → 8/8 · Headings 3/5 → 4/5 · Keyword placement 3/5 → 4/5 · AI readiness 26/31 → 26/31 · loop count: 1
 **Lighthouse (mobile, median of 3):** Perf 97 → 97 · SEO 100 → 100 · A11y 100 → 100 · BP 96 → 96 (test machine only)
-**GSC baseline (last 28 days):** waiting on Rich's paste. This page was not in the Search Console pages export on Monday 28 September.
+**GSC baseline (last 3 months, 28 June to 27 September 2026, pulled Tuesday 29 September):**
+- Clicks: 0 · Impressions: 0 · CTR: 0% · Avg position: none
+- Top queries: none. No page containing "fractional" shows any data either
+- Why: the page had no impressions on the old WordPress site, and the new site went live on Monday 28 September
 **Shelf-life fixes:** none
 **Re-measure on:** Tuesday 10 November 2026 → _(fill in: clicks, impressions, avg position, and the delta)_
