@@ -4,7 +4,7 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: both drafts wait on one real client example each before they can go live.
+Next: say "publish" to put both pages live.
 
 # Drafts · 2
 
@@ -19,7 +19,7 @@ Next: both drafts wait on one real client example each before they can go live.
  - draft, Tuesday 29 September 2026
  - linked from the footer on every page
  - keyword-map row 2
-**Warnings:** written without real proof, scored 8 out of 10, so it stays off the live site. Send one real contractor example and it can go live.
+**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10, ready to publish.
 
 ## Business growth consultant · service page
 
@@ -32,4 +32,4 @@ Next: both drafts wait on one real client example each before they can go live.
  - draft, Tuesday 29 September 2026
  - footer link appears when it goes live
  - keyword-map row 3
-**Warnings:** written without real proof, scored 8 out of 10, so it stays off the live site. Send one real client example and it can go live.
+**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10, ready to publish.
