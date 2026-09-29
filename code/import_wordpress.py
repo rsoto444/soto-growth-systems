@@ -70,7 +70,7 @@ NEW_PAGES = {
     "business-process-improvement-consultant": ("Business Process Improvement Consultant",
         "Business Process Improvement Consultant for Owners | SGS",
         "Business process improvement consultant for owner-led businesses: sales, delivery, finance, HR and admin processes fixed with SOPs. From $997.",
-        "2026-09-29", "draft"),
+        "2026-09-29", "live"),
 }
 
 CHANGES = [

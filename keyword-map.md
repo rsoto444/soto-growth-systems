@@ -559,7 +559,7 @@
 
 **Standalone**
 
-**Page:** /business-process-improvement-consultant/ · draft, Tuesday 29 September 2026
+**Page:** /business-process-improvement-consultant/ · live, Tuesday 29 September 2026
 
 **Google check:** mixed, money page wins the term
 

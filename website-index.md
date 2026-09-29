@@ -4,9 +4,9 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: say "publish" to put the process improvement page live.
+Next: request indexing for the process improvement page and the contractors page in Search Console.
 
-# Published · 4
+# Published · 5
 
 ## Construction business consultant · service page
 
@@ -62,7 +62,6 @@ Next: say "publish" to put the process improvement page live.
  - keyword-map row 5
 **Warnings:** proof is your booking-flow audit and your confirmed migration scope, no client numbers yet. Scored 9 out of 10.
 
-# Drafts · 1
 
 ## Business process improvement consultant · service page
 
@@ -72,7 +71,7 @@ Next: say "publish" to put the process improvement page live.
 **Cluster:** standalone
 **About:** the money page for fixing any repeated process (sales, delivery, finance, HR, admin), targeting "business process improvement consultant". Process, never advice.
 **Status:**
- - draft, Tuesday 29 September 2026
- - footer link appears when it goes live
+ - published, Tuesday 29 September 2026
+ - linked from the footer on every page
  - keyword-map row 6
-**Warnings:** proof is your booking-flow audit, no client numbers yet. Scored 9 out of 10, ready to publish.
+**Warnings:** proof is your booking-flow audit, no client numbers yet. Scored 9 out of 10.
