@@ -59,6 +59,10 @@ NEW_PAGES = {
         "Business Growth Consultant for Owner-Led Businesses | SGS",
         "Business growth consultant for owner-led businesses doing $500K+: we find the Growth Leaks costing you revenue and install the fix. Diagnosis from $997.",
         "2026-09-29", "live"),
+    "crm-consulting-services": ("CRM Consulting Services",
+        "CRM Consulting Services: GoHighLevel Setup and Cleanup | SGS",
+        "CRM consulting services for owner-led businesses: GoHighLevel setup, CRM cleanup, follow-up automation and team training. Diagnosis from $997.",
+        "2026-09-29", "draft"),
 }
 
 CHANGES = [

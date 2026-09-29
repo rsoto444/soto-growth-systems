@@ -29,6 +29,7 @@ export const site = {
     { label: "Managed Implementation™", href: "/growth-os-managed-implementation/" },
     { label: "Fractional Growth Operator™", href: "/fractional-growth-operator/" },
     { label: "Business Growth Consulting", href: "/business-growth-consultant/" },
+    { label: "CRM Consulting", href: "/crm-consulting-services/" },
     { label: "For Contractors", href: "/construction-business-consultant/" },
   ],
   company: [

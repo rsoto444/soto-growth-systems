@@ -1,34 +1,12 @@
 # Your keyword map
 
-25 pages left to build, in order, and 3 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+24 pages left to build, in order, and 4 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 25
+# To build · 24
 
-# Service pages · 4
-
-## 4. Service page: CRM consulting services
-
-**Standalone**
-
-**Google check:** passed
-
-**Primary keyword**
-- crm consulting services · 260 searches a month · Easy to rank for (8 out of 100)
-
-**Secondary keywords**
-- crm system consultant · 210 a month · Easy (0)
-- crm cleanup · 40 a month · Easy (0)
-- crm setup services · 20 a month · difficulty not measured
-
-**Also ranks for:** consultant crm
-
-**Note:** Narrow family: 3 is everything with this buyer's intent. "crm consultant" (590 a month) is bigger, but Google shows job listings and salaries for it.
-
-**Why here:** CRM setup and cleanup is work inside every implementation, and the people searching this are hiring help, not shopping for software.
-
----
+# Service pages · 3
 
 ## 5. Service page: CRM implementation services
 
@@ -497,7 +475,7 @@
 
 ---
 
-# Written · 3
+# Written · 4
 
 ## 1. Service page: Fractional COO
 
@@ -568,6 +546,30 @@
 - small business growth consultant · 50 a month · Easy (10)
 
 **Why here:** the plainest description of what SGS does, at zero difficulty. Google currently ranks LinkedIn and Instagram profiles for it, which is an open door for a real service page.
+
+---
+
+## 4. Service page: CRM consulting services
+
+**Standalone**
+
+**Page:** /crm-consulting-services/ · draft, Tuesday 29 September 2026
+
+**Google check:** passed
+
+**Primary keyword**
+- crm consulting services · 260 searches a month · Easy to rank for (8 out of 100)
+
+**Secondary keywords**
+- crm system consultant · 210 a month · Easy (0)
+- crm cleanup · 40 a month · Easy (0)
+- crm setup services · 20 a month · difficulty not measured
+
+**Also ranks for:** consultant crm
+
+**Note:** Narrow family: 3 is everything with this buyer's intent. "crm consultant" (590 a month) is bigger, but Google shows job listings and salaries for it.
+
+**Why here:** CRM setup and cleanup is work inside every implementation, and the people searching this are hiring help, not shopping for software.
 
 ---
 

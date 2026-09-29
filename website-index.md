@@ -4,7 +4,7 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: request indexing for both new pages in Search Console.
+Next: say "publish" to put the CRM consulting page live.
 
 # Published · 2
 
@@ -33,3 +33,18 @@ Next: request indexing for both new pages in Search Console.
  - linked from the footer on every page
  - keyword-map row 3
 **Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10.
+
+# Drafts · 1
+
+## CRM consulting services · service page
+
+**Route:**
+ - /crm-consulting-services/
+ - [preview](http://localhost:4321/crm-consulting-services/)
+**Cluster:** standalone
+**About:** the money page for owners whose CRM is unused or untrusted, targeting "crm consulting services". GoHighLevel only.
+**Status:**
+ - draft, Tuesday 29 September 2026
+ - footer link appears when it goes live
+ - keyword-map row 4
+**Warnings:** proof is your booking-flow audit and SGS's own GoHighLevel setup, no client numbers yet. Scored 9 out of 10, ready to publish.
