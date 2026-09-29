@@ -216,6 +216,12 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - Domain property sotogrowthsystems.com (a URL-prefix property also exists). Sitemap https://sotogrowthsystems.com/sitemap.xml submitted: Success, 15 pages. No old WordPress sitemaps were listed.
 - Indexing requested for /, /implementation-options/, /growth-leak-assessment/, /book-a-strategy-call/ and /contact/ (/contact/ was "Discovered - currently not indexed" before). Check the Pages report around Friday 2 October 2026 to confirm Google re-crawled the new versions.
 
+### Google Business Profile (created Tuesday 29 September 2026)
+- Spec: gbp-soto-growth-systems.md, photos in gbp-photos/. Service-area profile, address hidden (2650 W 820 N, verification only), 20 Utah cities, primary category Business management consultant, phone +1 833-854-0901, website, description and logo are in.
+- Waiting on: Google's video verification. Still to add: hours (Mon to Fri 9 to 5), 4 secondary categories, 14 services, 7 products with photos, Latino-owned, booking link, attributes.
+- The stock cover photo was taken off the profile; the logo is the only image. Add a real cover photo of Rich with a client when one exists.
+- Never edit the Provo SEO Pros profile from SGS work, and never show Provo materials in SGS verification.
+
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
 

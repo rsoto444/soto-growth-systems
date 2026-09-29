@@ -1,7 +1,9 @@
 # Google Business Profile: Soto Growth Systems
 
 The complete profile to create at business.google.com, section by section. Written Tuesday 29 September 2026.
-Next: create the profile with these fields, then tell me what Google shows under Attributes (section 7).
+Next: once video verification is approved, add the rest (hours, secondary categories, services, products, attributes).
+
+**Status, 29 September 2026:** profile created with name, category, 20 service areas, phone, website, description and logo. Waiting on video verification. The stock cover photo is off the profile; the logo is the only image.
 
 > Nothing here is live yet. Categories, services and products below are options, not requirements: never add one SGS does not actually deliver, and never list the same job twice to catch more searches.
 
