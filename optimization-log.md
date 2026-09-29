@@ -36,5 +36,6 @@ Rules:
 - Clicks: 0 · Impressions: 0 · CTR: 0% · Avg position: none
 - Top queries: none. No page containing "fractional" shows any data either
 - Why: the page had no impressions on the old WordPress site, and the new site went live on Monday 28 September
+**Re-index:** requested Tuesday 29 September 2026, 11:41am. Status was "Discovered, currently not indexed". Live test passed and the new title was seen. Google added it to the priority crawl queue
 **Shelf-life fixes:** none
 **Re-measure on:** Tuesday 10 November 2026 → _(fill in: clicks, impressions, avg position, and the delta)_
