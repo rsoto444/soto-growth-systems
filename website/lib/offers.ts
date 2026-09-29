@@ -9,6 +9,7 @@ export const offerSchemaByPath: Record<string, OfferInfo> = {
   "/growth-os-guided-implementation/": { name: "Growth OS Guided Implementation™", price: 18000, priceNote: "Starting at $18,000 setup plus $4,500 per month, 3-month minimum." },
   "/growth-os-managed-implementation/": { name: "Growth OS Managed Implementation™", price: 35000, priceNote: "Starting at $35,000 setup plus $8,500 per month, 6-month minimum." },
   "/fractional-growth-operator/": { name: "Fractional Growth Operator™", price: 5500, priceNote: "Starting at $5,500 per month, 6-month minimum, no setup fee.", alternateName: ["Fractional COO", "Fractional COO services"], serviceType: "Fractional COO services" },
+  "/construction-business-consultant/": { name: "Construction business consulting", price: 997, priceNote: "Starts with the Professional Growth Leak Assessment™ from $997.", alternateName: ["Business consultant for contractors", "HVAC business consultant", "Plumbing business consultant"], serviceType: "Construction business consulting" },
   "/growth-os-implementation/": { name: "Growth OS Implementation™" },
   "/implementation-options/": { name: "Growth OS implementation options" },
   "/soto-growth-os/": { name: "Soto Growth OS™" },

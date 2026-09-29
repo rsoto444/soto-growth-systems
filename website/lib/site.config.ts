@@ -28,6 +28,7 @@ export const site = {
     { label: "Guided Implementation™", href: "/growth-os-guided-implementation/" },
     { label: "Managed Implementation™", href: "/growth-os-managed-implementation/" },
     { label: "Fractional Growth Operator™", href: "/fractional-growth-operator/" },
+    { label: "For Contractors", href: "/construction-business-consultant/" },
   ],
   company: [
     { label: "About Rich", href: "/about-rich/" },

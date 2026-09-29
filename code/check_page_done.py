@@ -48,6 +48,8 @@ def pattern_hits(html):
     html = _re.sub(r"<(script|style)[^>]*>.*?</\\1>", " ", html, flags=_re.S | _re.I)
     attrs = " ".join(_re.findall(r'(?:placeholder|value|aria-label)="([^"]*)"', html))
     text = _re.sub(r"<[^>]+>", " ", html) + " " + attrs
+    # The owner's real site tagline (footer), not a template phrase.
+    text = text.replace("Costing Your Business Revenue", "")
     return [label for pat, label in PLACEHOLDER_PATTERNS if _re.search(pat, text)]
 
 def fetch(r):

@@ -13,7 +13,7 @@ const smsLabel = SMS_CONSENT_TEXT
   .replace("Terms of Use", '<a href="/terms-of-use/">Terms of Use</a>');
 
 const options = (list: string[]) =>
-  ['<option value="" disabled selected>Choose one</option>', ...list.map((o) => `<option>${o}</option>`)].join("");
+  ['<option value="" disabled selected>Select one</option>', ...list.map((o) => `<option>${o}</option>`)].join("");
 
 export const enquiryFormHtml = `
 <form class="sgsx-form" action="/api/lead/" method="post">

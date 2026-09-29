@@ -48,6 +48,14 @@ LINK_FIXES = {'href="/book-assessment/"': 'href="/growth-leak-assessment/"'}
 
 
 # (page slug, old text, new text, why)
+# Pages written on the new site, not carried over from WordPress.
+NEW_PAGES = {
+    "construction-business-consultant": ("Construction Business Consultant",
+        "Construction Business Consultant for Contractors | SGS",
+        "Construction business consultant for HVAC, plumbing, roofing and solar contractors: fix slow replies, lost estimates and CRM gaps. Diagnosis from $997.",
+        "2026-09-29"),
+}
+
 CHANGES = [
     ("fractional-growth-operator",
      "Scope, cadence, and price are confirmed on a",
@@ -197,6 +205,13 @@ def main(xml_path):
             "hasMain": "<main" in content,
             "html": content,
         })
+    # Pages written after the move (by /service-page and /blog-post) live in
+    # website/content/pages/<slug>.html; their titles and descriptions sit in NEW_PAGES.
+    for slug, (name, seo_title, seo_desc, date) in NEW_PAGES.items():
+        content = (ROOT / "website" / "content" / "pages" / f"{slug}.html").read_text(encoding="utf-8")
+        content = re.sub(r"^<!--.*?-->\s*", "", content, flags=re.S).strip()
+        pages.append({"path": f"/{slug}/", "oldPath": None, "title": seo_title, "description": seo_desc, "name": name,
+                      "date": date, "needs": [], "hasMain": False, "html": content})
     pages.sort(key=lambda p: p["path"])
     OUT.write_text(json.dumps(pages, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{len(pages)} pages written to {OUT.relative_to(ROOT)}")

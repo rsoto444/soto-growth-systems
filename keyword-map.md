@@ -1,61 +1,12 @@
 # Your keyword map
 
-28 pages to build, in order. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+26 pages left to build, in order, and 2 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 28
+# To build · 26
 
-# Service pages · 7
-
-## 1. Service page: Fractional COO
-
-**Standalone**
-
-**Already built:** /fractional-growth-operator/ · retarget it with /seo-optimization, never a second page
-
-**Google check:** mixed, money page wins the term
-
-**Primary keyword**
-- fractional coo · 1,600 searches a month · Easy to rank for (3 out of 100)
-
-**Secondary keywords**
-- fractional coo services · 390 a month · Easy (0)
-- part time coo · 260 a month · Easy (0)
-- fractional operations manager · 170 a month · Easy (0)
-- outsourced coo · 110 a month · Easy (0)
-
-**Also ranks for:** fractional chief operating officer (720 a month)
-
-**Why here:** the biggest buyer term on the map at almost no difficulty, and you already sell it: the Fractional Growth Operator is this role. Retarget the existing page rather than building a second one.
-
----
-
-## 2. Service page: Business consultant for contractors
-
-**Standalone**
-
-**Google check:** mixed, money page wins the term
-
-**Primary keyword**
-- construction business consultant · 390 searches a month · Easy to rank for (0 out of 100)
-
-**Secondary keywords**
-- home service business coach · 110 a month · Easy (11)
-- construction business coach · 90 a month · Easy (0)
-- hvac business coach · 90 a month · Easy (0)
-- business coach for contractors · 70 a month · Easy (0)
-- plumbing business coach · 70 a month · Easy (0)
-- hvac business consultant · 50 a month · Easy (0)
-- plumbing business consultant · 40 a month · Easy (0)
-
-**Also ranks for:** construction business consulting, contractor business coach
-
-**Note:** Buyers here also search for a coach. The page says plainly that SGS is a consultant and operator, not a coach, and answers that search honestly.
-
-**Why here:** your lead industry, zero difficulty, and the ranking results are mostly one-person profiles and project consultants, so a focused page for contractor owners has a real opening.
-
----
+# Service pages · 5
 
 ## 3. Service page: Business growth consultant
 
@@ -562,6 +513,59 @@
 **Note:** Narrow family. Google shows different results than page 11, so it's its own short post.
 
 **Why here:** small and easy; build it last and link it to page 11.
+
+---
+
+# Written · 2
+
+## 1. Service page: Fractional COO
+
+**Standalone**
+
+**Page:** /fractional-growth-operator/ · retargeted and live, Tuesday 29 September 2026
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- fractional coo · 1,600 searches a month · Easy to rank for (3 out of 100)
+
+**Secondary keywords**
+- fractional coo services · 390 a month · Easy (0)
+- part time coo · 260 a month · Easy (0)
+- fractional operations manager · 170 a month · Easy (0)
+- outsourced coo · 110 a month · Easy (0)
+
+**Also ranks for:** fractional chief operating officer (720 a month)
+
+**Why here:** the biggest buyer term on the map at almost no difficulty, and you already sell it: the Fractional Growth Operator is this role. Retarget the existing page rather than building a second one.
+
+---
+
+## 2. Service page: Business consultant for contractors
+
+**Standalone**
+
+**Page:** /construction-business-consultant/ · draft, Tuesday 29 September 2026
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- construction business consultant · 390 searches a month · Easy to rank for (0 out of 100)
+
+**Secondary keywords**
+- home service business coach · 110 a month · Easy (11)
+- construction business coach · 90 a month · Easy (0)
+- hvac business coach · 90 a month · Easy (0)
+- business coach for contractors · 70 a month · Easy (0)
+- plumbing business coach · 70 a month · Easy (0)
+- hvac business consultant · 50 a month · Easy (0)
+- plumbing business consultant · 40 a month · Easy (0)
+
+**Also ranks for:** construction business consulting, contractor business coach
+
+**Note:** Buyers here also search for a coach. The page says plainly that SGS is a consultant and operator, not a coach, and answers that search honestly.
+
+**Why here:** your lead industry, zero difficulty, and the ranking results are mostly one-person profiles and project consultants, so a focused page for contractor owners has a real opening.
 
 ---
 

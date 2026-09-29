@@ -4,4 +4,19 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Nothing here yet. The finished shape is in [references/examples/website-index-example.md](references/examples/website-index-example.md).
+Next: say "publish" to put the contractors page live.
+
+# Drafts · 1
+
+## Construction business consultant · service page
+
+**Route:**
+ - /construction-business-consultant/
+ - [preview](http://localhost:4321/construction-business-consultant/)
+**Cluster:** standalone
+**About:** the money page for HVAC, plumbing, electrical, roofing, solar and concrete owners, targeting "construction business consultant".
+**Status:**
+ - draft, Tuesday 29 September 2026
+ - linked from the footer on every page
+ - keyword-map row 2
+**Warnings:** written without real proof. Swap in client numbers and reviews when you have them.

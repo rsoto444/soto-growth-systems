@@ -226,7 +226,7 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Market:** United States, English. DataForSEO US database (location 2840); Utah checked separately for in-person terms.
 - **Business type:** national brand with a local layer (Utah County and Salt Lake County, in person).
 - **Services on the map:** the 7 offers above, in buyer words: business growth consulting, sales process design, CRM setup and cleanup, lead follow-up systems, KPI dashboards, SOPs, fractional COO (owner confirmed the Fractional Growth Operator is sold as fractional COO work).
-- **Lead industry:** contractors and home services.
+- **Lead industry:** contractors and home services. Rich has personally worked with HVAC, solar, roofing and concrete businesses through Provo SEO Pros since 2001 (owner, 29 September 2026). SGS also takes plumbing and electrical owners (no past-experience claim for those two).
 - **Never target:** appointment setting, SEO/ads/websites/social (that is Provo SEO Pros), jobs/careers/setter hiring, software shopping terms.
 - **Data:** DataForSEO login in .env (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). Semrush has no API units. Backlink authority not available, so blog posts use the flat difficulty ceiling of 30.
 
