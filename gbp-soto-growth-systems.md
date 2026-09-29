@@ -103,7 +103,7 @@ Only list cities where you'd actually drive to meet a client. National clients k
 
 ## 9. Products (7)
 
-Each product needs a photo before it shows as a tile. **Photos are open:** you have none yet. Send real photos, or say "use stock" and I'll pick work-scene photos (never faces).
+Each product needs a photo before it shows as a tile. **Photos: 1 of 8 ready.** gbp-photos/growth-leak-score-chart-desk.jpg (free licence, no credit needed) goes on the Growth Leak Score. The rest wait on a free Pexels key, because the other free photos found require a visible credit line, which a Business Profile can't show.
 
 **Growth Leak Score** · Free
 - Category: Assessment
