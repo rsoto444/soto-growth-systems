@@ -92,6 +92,11 @@ CHANGES = [
     ("growth-os-managed-implementation", "<h1>A Done For You", "<h1>Managed Implementation: A Done For You", "Page name in the headline"),
     ("resources", "<h1>Growth Infrastructure Resources", "<h1>Growth Leaks Checklist and Growth Infrastructure Resources", "Page name in the headline"),
     ("soto-growth-os", "          Connect the systems that make growth possible", "          Soto Growth OS™: Connect the systems that make growth possible", "Page name in the headline"),
+    # Facts corrected to match the calendar, phone and in-person meetings, owner approved 29 September 2026.
+    ("book-a-strategy-call", "<p>Zoom. A link is included in your calendar confirmation", "<p>Google Meet. A link is included in your calendar confirmation", "Calendar uses Google Meet"),
+    ("contact", "<p>We don't publish a phone number. The fastest way", "<p>Yes, +1 833-854-0901, on business days in Mountain Time. The fastest way", "Phone is now published"),
+    ("contact", "<p>All calls and meetings are held on Zoom. A meeting link", "<p>Strategy calls are held on Google Meet, and we also meet clients in person in Utah County and Salt Lake County. A meeting link", "Google Meet and in-person meetings"),
+    ("contact", "and meetings are held on Zoom regardless of your location.", "and meet in person in Utah County and Salt Lake County, or on Google Meet anywhere else.", "Google Meet and in-person meetings"),
     ("privacy-policy",
      "Last updated: June 3, 2026",
      "Last updated: September 28, 2026",
