@@ -1,4 +1,4 @@
-# Audit: sotogrowthsystems.com · Tuesday 29 September 2026 · 15 pages
+# Audit: sotogrowthsystems.com · Tuesday 29 September 2026 · 15 pages · score 83 to 87
 
 ### [ ] 1. Build the keyword map · no page targets a search buyers make
 
@@ -8,61 +8,26 @@
 **Time:** 30 min
 **Changes:** writes keyword-map.md. No site files touched.
 
-### [ ] 2. Rewrite 14 titles and 11 descriptions · 8 descriptions cut off mid-sentence
+### [x] 2. Rewrite 14 titles and 11 descriptions · 8 descriptions cut off mid-sentence
+Done 29 September. 14 new titles, 12 descriptions (Privacy Policy included). Only the words Google shows changed, not the pages.
 
-About Rich (2,188 views, 2% clicked) and Soto Growth OS (2,048 views, 1.2% clicked) show in Google constantly but rarely win the click. "growth leak assessment" sits at position 2 with 0 clicks from 33 searches. Drafts are in the report for your veto.
+### [x] 3. Fix the dead link and the lost addresses · Google still sends people to 4 of them
+Done 29 September. 6 links on Resources now point to /growth-leak-assessment/. Redirects: /book-assessment/, /sitemap_index.xml, /page-sitemap.xml, /feed/.
 
-**Who:** me, in your code
-**Time:** 20 min
-**Changes:** titles and descriptions only. No body copy touched.
+### [x] 4. Describe your offers to Google · 8 offer pages have no offer schema
+Done 29 September. Service schema on 8 offer pages, with your published starting prices on 5 of them.
 
-### [ ] 3. Fix the dead link and the lost addresses · Google still sends people to 4 of them
+### [x] 5. Speed up the homepage · 2.6s to show on a phone (lab), target under 2.5s
+Done 29 September. Home now 2.3s on all 3 lab runs (was 2.6s), performance 98 (was 89). Fonts served from your site, logo 21 KB (was 34 KB), CSS built into each page.
 
-/book-assessment/ got 182 Google views last quarter and now shows "not found". Resources still links to it. /sitemap_index.xml and /feed/ are old WordPress addresses Google still asks for.
+### [x] 6. Make the footer link visible as a link · fails accessibility on every page
+Done 29 September. Underlined. Accessibility 100 on 4 of 5 pages tested (was 91 to 97).
 
-**Who:** me, in your code
-**Time:** 10 min
-**Changes:** one link on Resources, 3 permanent redirects. Nothing removed.
+### [x] 7. Give the Guided Implementation page a clean address · its URL says "draft"
+Done 29 September, with your yes. Now /growth-os-guided-implementation/; the old address redirects there and every link was updated.
 
-### [ ] 4. Describe your offers to Google · 8 offer pages have no offer schema
-
-Google and AI tools get your business details but not what you sell or the starting price, which WordPress's SEO plugin used to provide.
-
-**Who:** me, in your code
-**Time:** 20 min
-**Changes:** adds hidden Service schema with your published prices. No visible change.
-
-### [ ] 5. Speed up the homepage · 2.6s to show on a phone (lab), target under 2.5s
-
-The Google Fonts file holds every page for about 0.3 seconds, and the logo is sent at 3 times the size it shows.
-
-**Who:** me, in your code
-**Time:** 20 min
-**Changes:** fonts served from your site, smaller logo. Same fonts, same look.
-
-### [ ] 6. Make the footer link visible as a link · fails accessibility on every page
-
-"Provo SEO Pros" in the footer is the same colour as the text around it, so it doesn't look clickable.
-
-**Who:** me, in your code
-**Time:** 5 min
-**Changes:** underlines one footer link. No words changed.
-
-### [ ] 7. Give the Guided Implementation page a clean address · its URL says "draft"
-
-/growth-os-implementation-draft-v2/ looks unfinished to buyers and Google, and its title clashes with /growth-os-implementation/. Suggested: /growth-os-guided-implementation/ with a permanent redirect from the old one.
-
-**Who:** me, in your code, only with your yes
-**Time:** 10 min
-**Changes:** new address plus a redirect. Needs your approval.
-
-### [ ] 8. Your call: link colour on the dark navy sections · 3.6:1, needs 4.5:1
-
-Blue #2563EB links on navy #0B1220 fail contrast on the offer pages. A lighter blue, #60A5FA, passes at 7.4:1, plus an underline so links still stand out from the grey text. It's your design, so I won't change it without a yes.
-
-**Who:** you decide, I change it
-**Time:** 5 min
-**Changes:** link colour and underline in the dark sections only.
+### [x] 8. Your call: link colour on the dark navy sections · 3.6:1, needs 4.5:1
+Done 29 September, with your yes. Links on dark navy sections are #60A5FA and underlined (7.4:1).
 
 ### [ ] 9. Send me your social profile links · Google can't connect SGS to you anywhere else
 
@@ -96,9 +61,39 @@ No reviews, results, case studies or photos yet, which is accurate. First real r
 **Time:** later
 **Changes:** none until then.
 
+### [ ] 13. Approve 6 headline insertions · these headlines miss the page's own name
+
+Smallest possible insertion, every other word kept. Say yes, or strike any:
+- About Rich: **"Rich Soto:"** + Build the growth system your business needs to operate with greater clarity
+- Guided: Growth OS **Guided** Implementation, Built With Your Team Not Around It
+- Growth OS Implementation: **"Growth OS Implementation:"** + Turn your growth roadmap into a working operating system
+- Managed: **"Managed Implementation:"** + A Done For You Growth Operating System, Built and Run by Soto Growth Systems
+- Resources: **"Growth Leaks Checklist and"** + Growth Infrastructure Resources for Owner-Led Businesses
+- Soto Growth OS: **"Soto Growth OS™:"** + Connect the systems that make growth possible
+
+**Who:** you approve, I change them
+**Time:** 5 min
+**Changes:** 6 headlines, words added only. Nothing else in the body.
+
+### [ ] 14. Your call: the numbered badges on Resources · 4.48:1, needs 4.5:1
+
+Blue #2563EB on the pale blue badge misses by a hair. Your darker hover blue #1D4ED8 passes and looks almost the same.
+
+**Who:** you decide, I change it
+**Time:** 2 min
+**Changes:** one colour on the Resources badges.
+
+### [ ] 15. Keep 4 page addresses as they are · they don't contain their keyword
+
+/about-rich/, /book-a-strategy-call/, /contact/ and /resources/ fail "keyword in the address". I recommend keeping them: Google already knows them, and moving them costs more than it gains. Say yes and I'll mark this as your decision.
+
+**Who:** you, one word
+**Time:** 1 min
+**Changes:** none.
+
 ## Waived
 
-- **Lighthouse "errors in the console", every page · crawler artifact.** The errors are this test machine failing its own certificate check on outside scripts (fonts, rank tracker) and a Vercel analytics file that only exists on the live host. Evidence: "net::ERR_CERT_AUTHORITY_INVALID" in the log; the same pages load clean in a normal browser. Re-check next run.
+- **Best practices 96 and "errors in the console", every page · crawler artifact.** The errors are this test machine failing its own certificate check on outside scripts (fonts, rank tracker) and a Vercel analytics file that only exists on the live host. Evidence: "net::ERR_CERT_AUTHORITY_INVALID" in the log; the same pages load clean in a normal browser. Re-check next run.
 
 ## AI-surface baseline · not run yet
 
@@ -109,8 +104,14 @@ Needs a person to ask ChatGPT, Perplexity and Google AI Mode your money question
 - **Semrush Site Health, backlinks, referring domains, authority score:** skipped. Semrush has no API units. Closes by adding units at semrush.com/mcp-access.
 - **Competitor benchmark:** skipped. Needs 3 named competitors or a money keyword to find them. Closes after item 1.
 - **Keyword checks (8 per page):** graded as not met, because no keyword map exists. Closes with item 1.
-- **Speed:** lab data only, mobile, 1 run each on 3 pages (home, Growth OS Blueprint, Contact), local production build. Google has no real-visitor speed data yet ("not enough usage data").
+- **Speed:** lab data only, mobile, local production build. Before: 1 run each on home, Growth OS Blueprint, Contact. After: home 3 runs, 4 other pages 1 run each. Google has no real-visitor speed data yet ("not enough usage data").
 - **Search Console:** measured, but the data is from the old WordPress site (pages last updated 20 September, searches to 27 September).
 - **Local and Business Profile:** waiting on item 10.
 - **Thin content:** not graded. Needs the top-3 word counts for each page's keyword, which come with item 1.
 - **Live AI test:** not run. See the baseline above.
+
+## Fix pass 1 · 29 September 2026
+
+- Score 83 to 87 (raw 86, 1 waived). Issues 375 to 307. The rest need the keyword map, new writing or real proof.
+- Body sentences changed: 0. Nothing deleted.
+- Home lab scores (mobile): 89/96/96/100 to 98/100/96/100.

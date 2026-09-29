@@ -44,6 +44,21 @@ export const founderSchema = {
   sameAs: ["https://provoseopros.com/"],
 };
 
+export function serviceSchema(name: string, description: string, path: string, price?: number, priceNote?: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    description,
+    url: `${site.url}${path}`,
+    provider: { "@id": ORG_ID },
+    areaServed: { "@type": "Country", name: "United States" },
+    ...(price
+      ? { offers: { "@type": "Offer", price: String(price), priceCurrency: "USD", description: priceNote, url: `${site.url}${path}` } }
+      : {}),
+  };
+}
+
 export function breadcrumbSchema(name: string, path: string) {
   return {
     "@context": "https://schema.org",

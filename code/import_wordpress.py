@@ -20,6 +20,33 @@ CALENDLY = "https://calendly.com/rsoto443/30min"
 CALENDLY_EMBED = '<div class="calendly-inline-widget" data-url="https://calendly.com/rsoto443/30min" style="min-width:320px;height:750px;min-height:750px;width:100%;"></div>'
 BOOKING_EMBED = f'<iframe src="{BOOKING_URL}" id="{BOOKING_ID}_embed" title="Book a Growth Strategy Call" scrolling="no" style="width:100%;min-height:750px;border:none;overflow:hidden;"></iframe>'
 
+# Audit fixes approved by the owner on 29 September 2026: titles and meta
+# descriptions (None keeps the WordPress description). Body copy is untouched.
+SEO_META = {
+    '': ('Find and Fix Your Growth Leaks | Soto Growth Systems', 'Growth leaks are the gaps in follow-up, sales process, CRM use and KPIs that cost owner-led businesses revenue. Find yours with the free Growth Leak Score.'),
+    'about-rich': ('Rich Soto: Founder of Soto Growth Systems, Provo, Utah', 'Rich Soto founded Soto Growth Systems and has run Provo SEO Pros since 2001. See how he helps owner-led businesses find and fix the leaks that stall growth.'),
+    'book-a-strategy-call': ('Book a Free Growth Strategy Call | Soto Growth Systems', 'Book a free 30-minute growth strategy call with Soto Growth Systems to find where your business is losing revenue to broken growth systems. Pick a time.'),
+    'contact': ('Contact Soto Growth Systems | Call, Email or Book a Call', 'Contact Soto Growth Systems in Provo, Utah. Call +1 833-854-0901, book a strategy call, take the free Growth Leak Score, or send a general enquiry.'),
+    'fractional-growth-operator': ('Fractional Growth Operator™ | Keep Your Growth OS Running', 'A Fractional Growth Operator keeps your Growth OS running after it is built, from $5,500 a month: KPI reviews, pipeline checks and monthly reporting.'),
+    'growth-leak-assessment': ('Growth Leak Assessment: Free Score or $997 Expert Review', 'Growth Leak Assessment options: take the free 10-question Growth Leak Score, or book the Professional Growth Leak Assessment™ from $997. See which fits.'),
+    'growth-os-blueprint': ('Growth OS Blueprint™: Self-Implementation From $7,500', 'The Growth OS Blueprint™ diagnoses, designs and documents your Growth Operating System in 4 to 6 weeks, from $7,500 one-time. Your own team implements it.'),
+    'growth-os-implementation-draft-v2': ('Growth OS Guided Implementation™: Done-With-You Build', 'Growth OS Guided Implementation™ builds your Growth OS with your team in 90 days, from $18,000 setup plus $4,500 a month with a 3-month minimum.'),
+    'growth-os-implementation': ('Growth OS Implementation™: Turn Your Roadmap Into a System', 'Growth OS Implementation™ turns your growth roadmap into a working operating system: priorities, processes, CRM, automation, KPIs and accountability.'),
+    'growth-os-managed-implementation': ('Growth OS Managed Implementation™: Done-For-You Build', None),
+    'privacy-policy': ('Privacy Policy and SMS Messaging | Soto Growth Systems', 'Privacy policy for Soto Growth Systems: how we collect, use and protect information from this website, booking forms, contact forms and text messages.'),
+    'terms-of-use': ('Terms of Use and SMS Program Terms | Soto Growth Systems', None),
+    'resources': ('Growth Leaks Checklist and Resources | Soto Growth Systems', 'Get the 10 Growth Leaks Checklist and practical tools to improve lead capture, follow-up, CRM use, KPI visibility and owner bottlenecks in your business.'),
+    'soto-growth-os': ('Soto Growth OS™: A Predictable Growth Operating System', 'The Soto Growth OS™ is a growth operating system for established owner-led businesses that want better visibility, stronger execution and less owner load.'),
+}
+
+# New addresses (old address -> new), each with a permanent redirect in
+# website/lib/redirects.json. Links on every page are pointed at the new one.
+MOVED = {"growth-os-implementation-draft-v2": "growth-os-guided-implementation"}
+
+# Links to pages that no longer exist, pointed at their replacement.
+LINK_FIXES = {'href="/book-assessment/"': 'href="/growth-leak-assessment/"'}
+
+
 # (page slug, old text, new text, why)
 CHANGES = [
     ("fractional-growth-operator",
@@ -126,7 +153,16 @@ def main(xml_path):
                     sys.exit(f"{slug}: expected 1 match for change, found {n}: {old[:60]}")
                 content = content.replace(old, new)
 
-        path = "/" if pid == HOME_ID else f"/{slug}/"
+        for old_link, new_link in LINK_FIXES.items():
+            content = content.replace(old_link, new_link)
+        for old_slug, new_slug in MOVED.items():
+            content = content.replace(f"/{old_slug}/", f"/{new_slug}/")
+        seo_key = "" if pid == HOME_ID else slug
+        if seo_key in SEO_META:
+            seo_title = SEO_META[seo_key][0]
+            seo_desc = SEO_META[seo_key][1] or seo_desc
+
+        path = "/" if pid == HOME_ID else f"/{MOVED.get(slug, slug)}/"
         pages.append({
             "path": path,
             "oldPath": f"/{slug}/" if pid == HOME_ID else None,

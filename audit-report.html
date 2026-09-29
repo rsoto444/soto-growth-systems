@@ -18,7 +18,7 @@
    "template": "Home",
    "onpage": {
     "before": 81,
-    "after": 81,
+    "after": 86,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:1",
@@ -37,13 +37,9 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:1",
      "onpage:11:4",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:13:1",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -55,18 +51,21 @@
     ],
     "routed": [
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 81,
-    "after": 81,
+    "after": 84,
     "failsBefore": [
      "geo:0:2",
      "geo:2:2",
@@ -76,7 +75,6 @@
      "geo:5:3"
     ],
     "failsAfter": [
-     "geo:0:2",
      "geo:2:2",
      "geo:3:4",
      "geo:4:0",
@@ -84,11 +82,14 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 89,
+   "perf": 98,
    "proof": 0,
    "flags": []
   },
@@ -97,7 +98,7 @@
    "template": "Service page",
    "onpage": {
     "before": 76,
-    "after": 76,
+    "after": 80,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -120,14 +121,11 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
      "onpage:11:1",
      "onpage:11:4",
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:1:1",
      "onpage:2:0",
      "onpage:2:1",
@@ -141,13 +139,19 @@
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:1",
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:6:0"
     ],
     "waived": []
    },
@@ -173,165 +177,12 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
-    ],
-    "waived": []
-   },
-   "perf": 94,
-   "proof": 0,
-   "flags": []
-  },
-  {
-   "url": "/book-a-strategy-call/",
-   "template": "Service page",
-   "onpage": {
-    "before": 81,
-    "after": 81,
-    "failsBefore": [
-     "onpage:0:3",
-     "onpage:11:0",
-     "onpage:11:4",
-     "onpage:12:1",
-     "onpage:12:3",
-     "onpage:14:1",
-     "onpage:1:1",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1",
-     "onpage:5:1",
-     "onpage:9:4"
-    ],
-    "failsAfter": [
-     "onpage:0:3",
-     "onpage:11:0",
-     "onpage:11:4",
-     "onpage:12:1",
-     "onpage:12:3",
-     "onpage:14:1",
-     "onpage:1:1",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1",
-     "onpage:5:1",
-     "onpage:9:4"
-    ],
-    "routed": [
-     "onpage:11:4",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1"
-    ],
-    "waived": []
-   },
-   "geo": {
-    "before": 81,
-    "after": 81,
-    "failsBefore": [
-     "geo:1:0",
+     "geo:1:1",
+     "geo:1:2",
      "geo:2:2",
-     "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
-    ],
-    "failsAfter": [
-     "geo:1:0",
-     "geo:2:2",
-     "geo:3:4",
-     "geo:4:0",
-     "geo:5:1",
-     "geo:5:3"
-    ],
-    "routed": [
-     "geo:4:0"
-    ],
-    "waived": []
-   },
-   "perf": 94,
-   "proof": 0,
-   "flags": []
-  },
-  {
-   "url": "/contact/",
-   "template": "Service page",
-   "onpage": {
-    "before": 81,
-    "after": 81,
-    "failsBefore": [
-     "onpage:0:3",
-     "onpage:11:0",
-     "onpage:11:4",
-     "onpage:12:1",
-     "onpage:12:3",
-     "onpage:14:1",
-     "onpage:1:1",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1",
-     "onpage:5:1",
-     "onpage:9:4"
-    ],
-    "failsAfter": [
-     "onpage:0:3",
-     "onpage:11:0",
-     "onpage:11:4",
-     "onpage:12:1",
-     "onpage:12:3",
-     "onpage:14:1",
-     "onpage:1:1",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1",
-     "onpage:5:1",
-     "onpage:9:4"
-    ],
-    "routed": [
-     "onpage:11:4",
-     "onpage:2:1",
-     "onpage:2:2",
-     "onpage:3:1",
-     "onpage:3:2",
-     "onpage:4:0",
-     "onpage:4:1"
-    ],
-    "waived": []
-   },
-   "geo": {
-    "before": 81,
-    "after": 81,
-    "failsBefore": [
-     "geo:1:0",
-     "geo:2:2",
-     "geo:3:4",
-     "geo:4:0",
-     "geo:5:1",
-     "geo:5:3"
-    ],
-    "failsAfter": [
-     "geo:1:0",
-     "geo:2:2",
-     "geo:3:4",
-     "geo:4:0",
-     "geo:5:1",
-     "geo:5:3"
-    ],
-    "routed": [
-     "geo:4:0"
     ],
     "waived": []
    },
@@ -340,19 +191,19 @@
    "flags": []
   },
   {
-   "url": "/fractional-growth-operator/",
+   "url": "/book-a-strategy-call/",
    "template": "Service page",
    "onpage": {
-    "before": 80,
-    "after": 80,
+    "before": 81,
+    "after": 84,
     "failsBefore": [
-     "onpage:0:0",
      "onpage:0:3",
+     "onpage:11:0",
      "onpage:11:4",
-     "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
      "onpage:14:1",
+     "onpage:1:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -360,17 +211,14 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
+     "onpage:11:0",
      "onpage:11:4",
-     "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
+     "onpage:1:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -378,17 +226,20 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:0",
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
@@ -396,6 +247,176 @@
     "before": 81,
     "after": 81,
     "failsBefore": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:3:4",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "failsAfter": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:3:4",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "routed": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "waived": []
+   },
+   "perf": 97,
+   "proof": 0,
+   "flags": []
+  },
+  {
+   "url": "/contact/",
+   "template": "Service page",
+   "onpage": {
+    "before": 81,
+    "after": 84,
+    "failsBefore": [
+     "onpage:0:3",
+     "onpage:11:0",
+     "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:14:1",
+     "onpage:1:1",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:9:4"
+    ],
+    "failsAfter": [
+     "onpage:11:0",
+     "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:1:1",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:9:4"
+    ],
+    "routed": [
+     "onpage:11:0",
+     "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1"
+    ],
+    "waived": []
+   },
+   "geo": {
+    "before": 81,
+    "after": 81,
+    "failsBefore": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:3:4",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "failsAfter": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:3:4",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "routed": [
+     "geo:1:0",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
+    ],
+    "waived": []
+   },
+   "perf": 98,
+   "proof": 0,
+   "flags": []
+  },
+  {
+   "url": "/fractional-growth-operator/",
+   "template": "Service page",
+   "onpage": {
+    "before": 80,
+    "after": 85,
+    "failsBefore": [
+     "onpage:0:0",
+     "onpage:0:3",
+     "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:14:1",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:9:0",
+     "onpage:9:4"
+    ],
+    "failsAfter": [
+     "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:9:4"
+    ],
+    "routed": [
+     "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
+     "onpage:2:1",
+     "onpage:2:2",
+     "onpage:3:1",
+     "onpage:3:2",
+     "onpage:4:0",
+     "onpage:4:1",
+     "onpage:5:1"
+    ],
+    "waived": []
+   },
+   "geo": {
+    "before": 81,
+    "after": 84,
+    "failsBefore": [
      "geo:2:2",
      "geo:3:0",
      "geo:3:4",
@@ -405,18 +426,20 @@
     ],
     "failsAfter": [
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -425,7 +448,7 @@
    "template": "Service page",
    "onpage": {
     "before": 80,
-    "after": 80,
+    "after": 86,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -445,13 +468,9 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
-     "onpage:0:4",
      "onpage:11:4",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -459,23 +478,25 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 81,
-    "after": 81,
+    "after": 84,
     "failsBefore": [
      "geo:2:2",
      "geo:3:0",
@@ -486,18 +507,20 @@
     ],
     "failsAfter": [
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -506,7 +529,7 @@
    "template": "Service page",
    "onpage": {
     "before": 76,
-    "after": 76,
+    "after": 81,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -529,8 +552,6 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
      "onpage:11:0",
      "onpage:11:2",
      "onpage:11:3",
@@ -538,7 +559,6 @@
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -546,23 +566,29 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:0",
+     "onpage:11:2",
+     "onpage:11:3",
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 71,
-    "after": 71,
+    "after": 74,
     "failsBefore": [
      "geo:1:0",
      "geo:1:3",
@@ -579,27 +605,32 @@
      "geo:1:3",
      "geo:2:0",
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:0",
+     "geo:1:3",
+     "geo:2:0",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
   {
-   "url": "/growth-os-implementation-draft-v2/",
+   "url": "/growth-os-guided-implementation/",
    "template": "Service page",
    "onpage": {
     "before": 75,
-    "after": 75,
+    "after": 84,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:1",
@@ -623,16 +654,10 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:1",
      "onpage:11:0",
      "onpage:11:4",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
-     "onpage:1:0",
-     "onpage:1:1",
-     "onpage:1:2",
      "onpage:2:0",
      "onpage:2:1",
      "onpage:2:2",
@@ -641,23 +666,26 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:0",
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 74,
-    "after": 74,
+    "after": 77,
     "failsBefore": [
      "geo:1:0",
      "geo:1:3",
@@ -672,29 +700,31 @@
      "geo:1:0",
      "geo:1:3",
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:0",
+     "geo:1:3",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 98,
    "proof": 0,
-   "flags": [
-    "cannibal"
-   ]
+   "flags": []
   },
   {
    "url": "/growth-os-implementation/",
    "template": "Service page",
    "onpage": {
     "before": 71,
-    "after": 71,
+    "after": 78,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -721,9 +751,6 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
-     "onpage:0:4",
      "onpage:11:1",
      "onpage:11:2",
      "onpage:11:3",
@@ -731,7 +758,6 @@
      "onpage:12:1",
      "onpage:12:2",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:0",
      "onpage:2:1",
      "onpage:2:2",
@@ -742,23 +768,31 @@
      "onpage:5:1",
      "onpage:6:0",
      "onpage:6:3",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:1",
+     "onpage:11:2",
+     "onpage:11:3",
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:2",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:6:0",
+     "onpage:6:3"
     ],
     "waived": []
    },
    "geo": {
     "before": 68,
-    "after": 68,
+    "after": 71,
     "failsBefore": [
      "geo:1:1",
      "geo:1:2",
@@ -776,7 +810,6 @@
      "geo:1:2",
      "geo:2:0",
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
@@ -784,22 +817,27 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:1",
+     "geo:1:2",
+     "geo:2:0",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:2",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
-   "flags": [
-    "cannibal"
-   ]
+   "flags": []
   },
   {
    "url": "/growth-os-managed-implementation/",
    "template": "Service page",
    "onpage": {
     "before": 79,
-    "after": 79,
+    "after": 82,
     "failsBefore": [
      "onpage:0:1",
      "onpage:11:0",
@@ -820,13 +858,11 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:1",
      "onpage:11:0",
      "onpage:11:4",
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:0",
      "onpage:2:1",
      "onpage:2:2",
@@ -835,23 +871,27 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:0",
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 74,
-    "after": 74,
+    "after": 77,
     "failsBefore": [
      "geo:1:0",
      "geo:1:3",
@@ -866,18 +906,22 @@
      "geo:1:0",
      "geo:1:3",
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:0",
+     "geo:1:3",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -886,7 +930,7 @@
    "template": "Service page",
    "onpage": {
     "before": 82,
-    "after": 82,
+    "after": 85,
     "failsBefore": [
      "onpage:11:4",
      "onpage:11:5",
@@ -908,7 +952,6 @@
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -916,23 +959,26 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
    "geo": {
     "before": 81,
-    "after": 81,
+    "after": 84,
     "failsBefore": [
      "geo:2:2",
      "geo:3:0",
@@ -943,18 +989,20 @@
     ],
     "failsAfter": [
      "geo:2:2",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -963,7 +1011,7 @@
    "template": "Service page",
    "onpage": {
     "before": 82,
-    "after": 82,
+    "after": 86,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -981,12 +1029,9 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
      "onpage:11:4",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -998,12 +1043,15 @@
     ],
     "routed": [
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
@@ -1025,11 +1073,14 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -1038,7 +1089,7 @@
    "template": "Service page",
    "onpage": {
     "before": 72,
-    "after": 72,
+    "after": 79,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:1",
@@ -1064,10 +1115,6 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:1",
-     "onpage:0:3",
-     "onpage:0:4",
      "onpage:11:0",
      "onpage:11:1",
      "onpage:11:4",
@@ -1084,17 +1131,22 @@
      "onpage:4:0",
      "onpage:4:1",
      "onpage:5:1",
-     "onpage:6:4",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:11:0",
+     "onpage:11:1",
      "onpage:11:4",
+     "onpage:12:1",
+     "onpage:12:2",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
@@ -1124,11 +1176,18 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:0",
+     "geo:1:1",
+     "geo:1:2",
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:2",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -1137,7 +1196,7 @@
    "template": "Service page",
    "onpage": {
     "before": 71,
-    "after": 71,
+    "after": 76,
     "failsBefore": [
      "onpage:0:0",
      "onpage:0:3",
@@ -1164,8 +1223,6 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
-     "onpage:0:3",
      "onpage:10:0",
      "onpage:11:1",
      "onpage:11:2",
@@ -1175,7 +1232,6 @@
      "onpage:12:1",
      "onpage:12:2",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:0",
      "onpage:2:1",
      "onpage:2:2",
@@ -1185,23 +1241,32 @@
      "onpage:4:1",
      "onpage:5:1",
      "onpage:6:3",
-     "onpage:9:0",
      "onpage:9:4"
     ],
     "routed": [
+     "onpage:10:0",
+     "onpage:11:1",
+     "onpage:11:2",
+     "onpage:11:3",
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:2",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1",
+     "onpage:6:3"
     ],
     "waived": []
    },
    "geo": {
     "before": 61,
-    "after": 61,
+    "after": 65,
     "failsBefore": [
      "geo:1:1",
      "geo:1:2",
@@ -1223,7 +1288,6 @@
      "geo:2:0",
      "geo:2:2",
      "geo:2:4",
-     "geo:3:0",
      "geo:3:4",
      "geo:4:0",
      "geo:5:1",
@@ -1231,11 +1295,20 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:1:1",
+     "geo:1:2",
+     "geo:1:3",
+     "geo:2:0",
+     "geo:2:2",
+     "geo:2:4",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:2",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   },
@@ -1244,7 +1317,7 @@
    "template": "Service page",
    "onpage": {
     "before": 82,
-    "after": 82,
+    "after": 85,
     "failsBefore": [
      "onpage:0:0",
      "onpage:11:4",
@@ -1262,12 +1335,10 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:0:0",
      "onpage:11:4",
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
-     "onpage:14:1",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
@@ -1279,12 +1350,16 @@
     ],
     "routed": [
      "onpage:11:4",
+     "onpage:11:5",
+     "onpage:12:1",
+     "onpage:12:3",
      "onpage:2:1",
      "onpage:2:2",
      "onpage:3:1",
      "onpage:3:2",
      "onpage:4:0",
-     "onpage:4:1"
+     "onpage:4:1",
+     "onpage:5:1"
     ],
     "waived": []
    },
@@ -1306,21 +1381,24 @@
      "geo:5:3"
     ],
     "routed": [
-     "geo:4:0"
+     "geo:2:2",
+     "geo:4:0",
+     "geo:5:1",
+     "geo:5:3"
     ],
     "waived": []
    },
-   "perf": 94,
+   "perf": 97,
    "proof": 0,
    "flags": []
   }
  ],
- "passes": 0,
- "minutes": 0,
+ "passes": 1,
+ "minutes": 45,
  "before": 83,
- "after": 83,
+ "after": 87,
  "issuesBefore": 375,
- "issuesAfter": 375,
+ "issuesAfter": 307,
  "bodySentencesChanged": 0,
  "lostPerMonth": 0,
  "layers": [
@@ -1328,22 +1406,22 @@
    "name": "On-page",
    "sub": "titles, headlines, links, schema",
    "before": 78,
-   "after": 78,
-   "fixed": "not started, waiting on your yes"
+   "after": 83,
+   "fixed": "14 titles, 12 descriptions, 6 links"
   },
   {
    "name": "Technical",
    "sub": "speed, mobile, redirects",
    "before": 95,
-   "after": 95,
-   "fixed": "not started, waiting on your yes"
+   "after": 99,
+   "fixed": "2.6s to 2.3s, 5 redirects"
   },
   {
    "name": "AI readiness",
    "sub": "31 checks",
    "before": 77,
-   "after": 77,
-   "fixed": "not started, waiting on your yes"
+   "after": 78,
+   "fixed": "offer schema on 8 pages"
   },
   {
    "name": "Doorway pages",
@@ -1374,12 +1452,12 @@
      {
       "t": "Title tag 50-60 characters",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Primary keyword sits near the front of the title",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "One title tag only, unique to this page",
@@ -1389,12 +1467,12 @@
      {
       "t": "Meta description 140-160 characters, written for the click",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Primary keyword appears once in the meta description",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Canonical tag points to this page's own clean URL",
@@ -1419,7 +1497,7 @@
      {
       "t": "URL is short, lowercase, hyphen-separated",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Primary keyword in the slug",
@@ -1429,7 +1507,7 @@
      {
       "t": "No dates, IDs, or junk parameters in the path",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Folder reflects the site map",
@@ -1549,7 +1627,7 @@
      {
       "t": "At least one original photo, screenshot, or graphic",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Images compressed to WebP, aim under about 100KB each",
@@ -1579,7 +1657,7 @@
      {
       "t": "3 to 5 internal links in the body",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Anchors are descriptive, never \"click here\" or \"read more\"",
@@ -1594,12 +1672,12 @@
      {
       "t": "At least one link back up to the relevant hub/pillar page",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "No broken internal links",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      }
     ]
    },
@@ -1664,7 +1742,7 @@
      {
       "t": "Correct schema type for the page",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Organization or LocalBusiness schema with NAP",
@@ -1694,7 +1772,7 @@
      {
       "t": "An FAQ block answering the real questions from the scan",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "FAQ questions phrased the way people actually search",
@@ -1719,22 +1797,22 @@
      {
       "t": "Every question-style H2 has a 40 to 60 word self-contained answer directly beneath it",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Answer-first structure: the direct answer comes before the deep explanation",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "At least about 3 comparison tables where it fits",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Key data presented in clean tables, not buried in prose",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Page covers the related entities and terms the winners share",
@@ -1744,7 +1822,7 @@
      {
       "t": "First-person action language where true",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      }
     ]
    },
@@ -1759,17 +1837,17 @@
      {
       "t": "At least one original photo, screenshot, or dataset from real work",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Real numbers and specifics replace vague claims",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Trust signals visible",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Links to the author page, about page, and contact page",
@@ -1794,7 +1872,7 @@
      {
       "t": "Loads fast",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Served over HTTPS",
@@ -1847,7 +1925,7 @@
  },
  "technical": {
   "formFactor": "mobile",
-  "runs": 1,
+  "runs": 3,
   "templates": [
    {
     "name": "Home",
@@ -1859,8 +1937,8 @@
      100
     ],
     "after": [
-     89,
-     96,
+     98,
+     100,
      96,
      100
     ]
@@ -1875,8 +1953,8 @@
      100
     ],
     "after": [
-     94,
-     91,
+     97,
+     100,
      96,
      100
     ]
@@ -1903,7 +1981,7 @@
      {
       "t": "Pages are fast: AI engines favor fast pages",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Content renders WITHOUT JavaScript",
@@ -1928,22 +2006,22 @@
      {
       "t": "Every question-style H2 has a 40 to 60 word self-contained answer DIRECTLY beneath it",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "The direct answer comes BEFORE the deep explanation in every section",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "The page's core answer appears in the first 30 percent of the page, not buried at the end",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Sentences average about 18 words",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Clear H2/H3 skeleton a machine can outline",
@@ -1963,7 +2041,7 @@
      {
       "t": "Key data lives in clean comparison/pricing/spec TABLES, not prose",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Statistics present and each cites its ORIGINAL source",
@@ -1973,7 +2051,7 @@
      {
       "t": "At least one direct expert/customer QUOTE with attribution",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Where the topic fits, use a numbered Top-N list format",
@@ -1983,7 +2061,7 @@
      {
       "t": "FAQ block answering the real questions people ask",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Units, dates, and prices written explicitly",
@@ -1998,7 +2076,7 @@
      {
       "t": "Correct schema type per page",
       "b": "fail",
-      "a": "fail"
+      "a": "pass"
      },
      {
       "t": "Organization/LocalBusiness schema with NAP matching GBP exactly",
@@ -2058,17 +2136,17 @@
      {
       "t": "Case-study and pricing content exists on the site",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "Real numbers replace adjectives (\"since 2011\", \"1,400 jobs\"",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      },
      {
       "t": "At least one original photo/screenshot/dataset from real work per money page",
       "b": "fail",
-      "a": "fail"
+      "a": "routed"
      }
     ]
    },
@@ -2175,58 +2253,72 @@
  },
  "fixes": [
   {
-   "layer": "Keywords",
-   "item": "No page targets a buying search",
-   "status": "queued",
-   "who": "me",
-   "changes": "keyword map"
-  },
-  {
    "layer": "On-page",
-   "item": "14 titles, 11 descriptions",
-   "status": "queued",
+   "item": "14 titles, 12 descriptions",
+   "status": "done",
    "who": "me",
    "changes": "titles, descriptions"
   },
   {
    "layer": "Technical",
-   "item": "Dead link, 3 lost addresses",
-   "status": "queued",
+   "item": "Dead link, 4 lost addresses",
+   "status": "done",
    "who": "me",
-   "changes": "1 link, 3 redirects"
+   "changes": "6 links, 5 redirects"
   },
   {
    "layer": "AI readiness",
    "item": "8 offers not described",
-   "status": "queued",
+   "status": "done",
    "who": "me",
    "changes": "offer schema"
   },
   {
    "layer": "Technical",
    "item": "Home 2.6s on a phone",
-   "status": "queued",
+   "status": "done",
    "who": "me",
-   "changes": "fonts, logo size"
+   "changes": "fonts, logo, CSS"
   },
   {
    "layer": "On-page",
    "item": "Footer link looks like text",
-   "status": "queued",
+   "status": "done",
    "who": "me",
    "changes": "one underline"
   },
   {
    "layer": "On-page",
    "item": "Guided page URL says draft",
-   "status": "queued",
+   "status": "done",
    "who": "me",
    "changes": "new URL, redirect"
   },
   {
    "layer": "On-page",
    "item": "Dark section link contrast",
+   "status": "done",
+   "who": "me",
+   "changes": "lighter blue, underline"
+  },
+  {
+   "layer": "Keywords",
+   "item": "No page targets a buying search",
    "status": "byhand",
+   "who": "you",
+   "changes": "keyword data login"
+  },
+  {
+   "layer": "On-page",
+   "item": "6 headlines miss their keyword",
+   "status": "now",
+   "who": "you",
+   "changes": "approve 6 insertions"
+  },
+  {
+   "layer": "On-page",
+   "item": "Resources badges 4.48:1",
+   "status": "now",
    "who": "you",
    "changes": "your colour call"
   },
@@ -2248,18 +2340,18 @@
  "notMeasured": [
   "Backlinks, Site Health, competitors: Semrush has no API units",
   "Keyword checks: no keyword map yet, 8 per page graded as not met",
-  "Speed: lab only, 1 mobile run on 3 pages, no real-visitor data yet",
+  "Speed: lab only, mobile, local production build; home 3 runs, 4 other pages 1 run each",
   "Search Console: data is from the old WordPress site",
   "Local: waiting on whether a Business Profile exists",
   "Thin content: needs top-3 word counts from the keyword map"
  ],
  "costs": [],
- "rawAfter": 83,
+ "rawAfter": 86,
  "waived": [
   {
    "type": "crawler artifact",
-   "item": "Console errors in Lighthouse",
-   "reason": "test machine blocks outside scripts, loads clean live"
+   "item": "Best practices 96, console errors",
+   "reason": "test machine blocks outside scripts; Vercel's analytics file only exists live"
   }
  ],
  "other": [
@@ -2267,7 +2359,7 @@
    "group": "Index hygiene",
    "item": "Pages indexed (Search Console / sitemap)",
    "before": "9 / 15",
-   "after": "9 / 15"
+   "after": "9 / 15, re-crawl pending"
   },
   {
    "group": "Index hygiene",
@@ -2279,25 +2371,37 @@
    "group": "Links and redirects",
    "item": "Old addresses returning not found",
    "before": "3",
-   "after": "3"
+   "after": "0, each redirected"
   },
   {
    "group": "Links and redirects",
    "item": "Broken internal links",
-   "before": "1",
-   "after": "1"
+   "before": "6 (one address)",
+   "after": "0"
+  },
+  {
+   "group": "Links and redirects",
+   "item": "Guided page address",
+   "before": "...-draft-v2",
+   "after": "/growth-os-guided-implementation/"
   },
   {
    "group": "Files",
-   "item": "sitemap.xml, robots.txt, llms.txt",
-   "before": "all present",
-   "after": "all present"
+   "item": "Fonts from Google's servers",
+   "before": "2 outside requests",
+   "after": "served from your site"
   },
   {
    "group": "Speed and mobile",
-   "item": "Home load on a phone (lab)",
+   "item": "Home main content on a phone (lab)",
    "before": "2.6s",
-   "after": "2.6s"
+   "after": "2.3s"
+  },
+  {
+   "group": "Speed and mobile",
+   "item": "Logo file",
+   "before": "34 KB",
+   "after": "21 KB"
   }
  ]
 }

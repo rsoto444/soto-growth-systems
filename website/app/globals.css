@@ -395,3 +395,10 @@ h1,h2,h3,h4,h5,h6{
 .sgsx-form button{border:none;cursor:pointer;font-family:inherit}
 .sgsx-trap{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
 @media(max-width:640px){.sgsx-form{padding:20px}.sgsx-form-grid{grid-template-columns:1fr}}
+
+/* ---------- ACCESSIBILITY FIXES (audit, 29 September 2026) ---------- */
+/* Links inside footer sentences look like links, not plain text. */
+.sgs-footer-col p a{text-decoration:underline;text-underline-offset:2px}
+/* Links on the dark navy sections: lighter blue (7.4:1) plus an underline,
+   owner approved. Buttons keep their own colours. */
+.sgs-sec--dark a:not(.sgs-btn){color:#60A5FA;text-decoration:underline;text-underline-offset:2px}

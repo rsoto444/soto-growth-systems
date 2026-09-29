@@ -4,6 +4,11 @@ import JsonLd from "./_components/JsonLd";
 import { businessSchema, founderSchema } from "@/lib/seo";
 import { site } from "@/lib/site.config";
 import "./globals.css";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+// Font rules read at build time and inlined, so no stylesheet request holds the page.
+const fontCss = readFileSync(join(process.cwd(), "app", "fonts.css"), "utf8");
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -14,9 +19,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" />
+        <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
+        <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
+        <style dangerouslySetInnerHTML={{ __html: fontCss }} />
         {/* SGS rank tracker: page views only (path, referrer, screen width), no cookies. */}
         <script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>
       </head>

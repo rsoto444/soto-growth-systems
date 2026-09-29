@@ -6,7 +6,8 @@ import type { Metadata } from "next";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
 import JsonLd from "./JsonLd";
-import { pageMeta, breadcrumbSchema } from "@/lib/seo";
+import { pageMeta, breadcrumbSchema, serviceSchema } from "@/lib/seo";
+import { offerSchemaByPath } from "@/lib/offers";
 import type { WpPage } from "@/lib/pages";
 import { enquiryFormHtml } from "@/lib/enquiry-form";
 
@@ -14,11 +15,13 @@ export const wpMetadata = (p: WpPage): Metadata => pageMeta({ title: p.title, de
 
 export default function WpPageView({ page }: { page: WpPage }) {
   const Body = page.hasMain ? "div" : "main";
+  const offer = offerSchemaByPath[page.path];
   // The Contact page marks where its enquiry form goes.
   const html = page.html.replace("<!-- SGS_ENQUIRY_FORM -->", enquiryFormHtml);
   return (
     <>
       {page.path !== "/" && <JsonLd data={breadcrumbSchema(page.name, page.path)} />}
+      {offer && <JsonLd data={serviceSchema(offer.name, page.description, page.path, offer.price, offer.priceNote)} />}
       <SiteHeader />
       <Body className="sgsx-page" dangerouslySetInnerHTML={{ __html: html }} />
       <SiteFooter />

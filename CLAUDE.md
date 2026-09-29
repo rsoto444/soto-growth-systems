@@ -205,6 +205,13 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Test contacts:** "Test Person 2", "Test Person 3" and "Test Person 4" (test2/test3/test4@example.com) are on DND. Keep them, never text them.
 - **Vercel:** project soto-growth-systems in the Soto Growth Systems team, Root Directory = website, LEAD_WEBHOOK_URL set for Production and Preview, free Web Analytics on. Address before the domain: https://soto-growth-systems.vercel.app. Production Branch is main.
 
+### Audit (Tuesday 29 September 2026)
+- First /audit: score 83 to 87 after fix pass 1 (raw 86, 1 waived). Checklist in audit-report.md, visual report in audit-report.html, grader in code/grade_site.py.
+- Guided Implementation moved to /growth-os-guided-implementation/ (owner approved); /growth-os-implementation-draft-v2/ redirects there.
+- New titles and descriptions live in SEO_META in code/import_wordpress.py; offer schema and prices in website/lib/offers.ts (change prices there and on the page together).
+- Fonts (Inter, Manrope) are served from website/public/fonts; CSS is built into each page.
+- Semrush has no API units; the DataForSEO login is not in this project yet.
+
 ### Search Console (Monday 28 September 2026)
 - Domain property sotogrowthsystems.com (a URL-prefix property also exists). Sitemap https://sotogrowthsystems.com/sitemap.xml submitted: Success, 15 pages. No old WordPress sitemaps were listed.
 - Indexing requested for /, /implementation-options/, /growth-leak-assessment/, /book-a-strategy-call/ and /contact/ (/contact/ was "Discovered - currently not indexed" before). Check the Pages report around Friday 2 October 2026 to confirm Google re-crawled the new versions.

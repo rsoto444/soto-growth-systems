@@ -25,7 +25,7 @@ export const site = {
   offers: [
     { label: "Growth Leak Assessment™", href: "/growth-leak-assessment/" },
     { label: "Growth OS Blueprint™", href: "/growth-os-blueprint/" },
-    { label: "Guided Implementation™", href: "/growth-os-implementation-draft-v2/" },
+    { label: "Guided Implementation™", href: "/growth-os-guided-implementation/" },
     { label: "Managed Implementation™", href: "/growth-os-managed-implementation/" },
     { label: "Fractional Growth Operator™", href: "/fractional-growth-operator/" },
   ],

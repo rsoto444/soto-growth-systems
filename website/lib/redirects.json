@@ -1,4 +1,9 @@
 [
   { "source": "/soto-growth-systems-find-and-fix-the-growth-leaks-costing-your-business-revenue/", "destination": "/" },
-  { "source": "/home-draft-v2/", "destination": "/" }
+  { "source": "/home-draft-v2/", "destination": "/" },
+  { "source": "/growth-os-implementation-draft-v2/", "destination": "/growth-os-guided-implementation/" },
+  { "source": "/book-assessment/", "destination": "/growth-leak-assessment/" },
+  { "source": "/sitemap_index.xml", "destination": "/sitemap.xml" },
+  { "source": "/page-sitemap.xml", "destination": "/sitemap.xml" },
+  { "source": "/feed/", "destination": "/" }
 ]

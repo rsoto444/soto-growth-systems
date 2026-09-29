@@ -12,7 +12,7 @@ export default function SiteHeader() {
     <header className="sgsx-header">
       <div className="sgsx-header-inner">
         <a href="/" className="sgsx-logo" aria-label="Soto Growth Systems home">
-          <img src="/images/logo.webp" alt="Soto Growth Systems" width={390} height={56} />
+          <img src="/images/logo.webp" alt="Soto Growth Systems" width={250} height={36} fetchPriority="high" />
         </a>
         <nav className="sgsx-nav" aria-label="Main">{links}</nav>
         <a href="/book-a-strategy-call/" className="sgsx-header-btn">Book a Strategy Call</a>

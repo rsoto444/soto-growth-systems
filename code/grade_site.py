@@ -17,15 +17,20 @@ KW = {
     "/": "growth leaks", "/about-rich/": "rich soto", "/book-a-strategy-call/": "growth strategy call",
     "/contact/": "contact soto growth systems", "/fractional-growth-operator/": "fractional growth operator",
     "/growth-leak-assessment/": "growth leak assessment", "/growth-os-blueprint/": "growth os blueprint",
-    "/growth-os-implementation-draft-v2/": "guided implementation", "/growth-os-implementation/": "growth os implementation",
+    "/growth-os-guided-implementation/": "guided implementation", "/growth-os-implementation-draft-v2/": "guided implementation", "/growth-os-implementation/": "growth os implementation",
     "/growth-os-managed-implementation/": "managed implementation", "/implementation-options/": "implementation options",
     "/privacy-policy/": "privacy policy", "/resources/": "growth leaks checklist", "/soto-growth-os/": "soto growth os",
     "/terms-of-use/": "terms of use",
 }
-OFFERS = {"/fractional-growth-operator/", "/growth-leak-assessment/", "/growth-os-blueprint/", "/growth-os-implementation-draft-v2/",
+OFFERS = {"/growth-os-implementation-draft-v2/", "/fractional-growth-operator/", "/growth-leak-assessment/", "/growth-os-blueprint/", "/growth-os-guided-implementation/",
           "/growth-os-implementation/", "/growth-os-managed-implementation/", "/implementation-options/", "/soto-growth-os/"}
 LEGAL = {"/privacy-policy/", "/terms-of-use/"}
 # Checks that need a keyword map / top-3 scan: graded fail, routed.
+# Checks only new writing or real proof can pass: routed to /seo-optimization,
+# /service-page or the owner, never fixed by editing the owner's copy.
+WRITING = {"onpage:11:5", "onpage:11:0", "onpage:11:1", "onpage:11:2", "onpage:11:3", "onpage:12:2", "onpage:6:0",
+           "onpage:6:3", "onpage:10:0", "geo:1:0", "geo:1:1", "geo:1:2", "geo:1:3", "geo:2:0", "geo:2:4", "geo:5:2",
+           "onpage:12:1", "onpage:12:3", "onpage:5:1", "geo:2:2", "geo:5:1", "geo:5:3"}
 ROUTED = {"onpage:2:1", "onpage:2:2", "onpage:3:1", "onpage:3:2", "onpage:4:0", "onpage:4:1", "onpage:11:4", "geo:4:0"}
 
 
@@ -103,8 +108,10 @@ def grade(url, h, all_titles, perf):
     if not islegal and not re.search(r"\$\d|\d+ (years|weeks|months)", text): f.add("onpage:12:2")
     # 14 technical
     if perf is not None and perf < 90: f.add("onpage:13:1")
-    # 15 readability / contrast: footer Provo link fails on every page
-    f.add("onpage:14:1")
+    # 15 readability / contrast. Footer and dark-section links were fixed on
+    # 29 September 2026; the Resources number badges (#2563EB on #E9EFFD,
+    # 4.48:1) still wait on the owner's colour call.
+    if 'class="sgs-mini-num"' in main: f.add("onpage:14:1")
     # ROUTED: needs keyword map / top-3 scan
     f.update(x for x in ROUTED if x.startswith("onpage"))
 
@@ -135,7 +142,7 @@ out = {}
 for url, h in pages.items():
     perf = int(PERF[url]) if url in PERF else None
     f, geo, info = grade(url, h, titles, perf)
-    out[url] = dict(onpage=sorted(f), geo=sorted(geo), routed=sorted(ROUTED & (f | geo)), **info)
+    out[url] = dict(onpage=sorted(f), geo=sorted(geo), routed=sorted((ROUTED | WRITING) & (f | geo)), **info)
 OUT.write_text(json.dumps(out, indent=1))
 for url, r in out.items():
     print(f"{url:38} onpage fails {len(r['onpage']):2}/80  geo fails {len(r['geo']):2}/31  words {r['words']}  faq {r['faq']}  tables {r['tables']}")
