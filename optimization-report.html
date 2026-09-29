@@ -18,7 +18,7 @@
    "template": "Service page",
    "onpage": {
     "before": 82,
-    "after": 88,
+    "after": 90,
     "failsBefore": [
      "onpage:0:1",
      "onpage:0:4",
@@ -36,28 +36,24 @@
      "onpage:9:4"
     ],
     "failsAfter": [
-     "onpage:11:4",
      "onpage:11:5",
      "onpage:12:1",
      "onpage:12:3",
      "onpage:1:1",
      "onpage:2:2",
-     "onpage:3:2",
      "onpage:4:0",
      "onpage:5:1",
      "onpage:9:4"
     ],
     "routed": [
-     "onpage:11:4",
      "onpage:11:5",
-     "onpage:2:2",
-     "onpage:3:2"
+     "onpage:2:2"
     ],
     "waived": []
    },
    "geo": {
     "before": 84,
-    "after": 84,
+    "after": 87,
     "failsBefore": [
      "geo:2:2",
      "geo:3:4",
@@ -68,13 +64,10 @@
     "failsAfter": [
      "geo:2:2",
      "geo:3:4",
-     "geo:4:0",
      "geo:5:1",
      "geo:5:3"
     ],
-    "routed": [
-     "geo:4:0"
-    ],
+    "routed": [],
     "waived": []
    },
    "perf": 97,
@@ -82,12 +75,12 @@
    "flags": []
   }
  ],
- "passes": 1,
+ "passes": 2,
  "minutes": 20,
  "before": 83,
- "after": 86,
+ "after": 89,
  "issuesBefore": 19,
- "issuesAfter": 15,
+ "issuesAfter": 12,
  "bodySentencesChanged": 0,
  "lostPerMonth": 0,
  "layers": [
@@ -95,8 +88,8 @@
    "name": "On-page",
    "sub": "title, headline, description, schema",
    "before": 82,
-   "after": 88,
-   "fixed": "title, description, headline, schema"
+   "after": 90,
+   "fixed": "title, headline, schema, 2 FAQs"
   },
   {
    "name": "Technical",
@@ -109,8 +102,8 @@
    "name": "AI readiness",
    "sub": "answers, data, schema",
    "before": 84,
-   "after": 84,
-   "fixed": "waiting on your FAQ yes"
+   "after": 87,
+   "fixed": "2 FAQ answers added"
   },
   {
    "name": "Doorway pages",
@@ -256,7 +249,7 @@
      {
       "t": "Cluster variants appear through the body naturally",
       "b": "fail",
-      "a": "routed"
+      "a": "pass"
      },
      {
       "t": "No exact-match keyword stuffing",
@@ -506,7 +499,7 @@
      {
       "t": "Page covers the related entities and terms the winners share",
       "b": "fail",
-      "a": "routed"
+      "a": "pass"
      },
      {
       "t": "First-person action language where true",
@@ -779,7 +772,7 @@
      {
       "t": "Page covers the related entities and terms the top-cited pages share",
       "b": "fail",
-      "a": "routed"
+      "a": "pass"
      },
      {
       "t": "Business name, location, and services stated in plain text on the page",
@@ -956,7 +949,7 @@
   {
    "layer": "AI readiness",
    "item": "Two FAQ answers for the variants",
-   "status": "queued",
+   "status": "done",
    "who": "you",
    "changes": "approve draft"
   },
@@ -974,7 +967,7 @@
   "Top 3 length: 2 of the top 3 could not be read (blocked, Reddit)"
  ],
  "costs": [],
- "rawAfter": 86,
+ "rawAfter": 89,
  "waived": [
   {
    "type": "crawler artifact",

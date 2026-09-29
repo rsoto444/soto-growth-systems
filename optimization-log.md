@@ -30,7 +30,7 @@ Rules:
 ## Tuesday 29 September 2026 · /fractional-growth-operator/
 
 **Target:** fractional coo (retargeted from "fractional growth operator")
-**Checks:** Head tags 6/8 → 8/8 · Headings 3/5 → 4/5 · Keyword placement 3/5 → 4/5 · AI readiness 26/31 → 26/31 · loop count: 1
+**Checks:** Head tags 6/8 → 8/8 · Headings 3/5 → 4/5 · Keyword placement 3/5 → 5/5 · AI extraction 4/6 → 5/6 · total 66/80 → 72/80 · AI readiness 26/31 → 27/31 · loop count: 2 (second loop added 2 owner-approved FAQ answers)
 **Lighthouse (mobile, median of 3):** Perf 97 → 97 · SEO 100 → 100 · A11y 100 → 100 · BP 96 → 96 (test machine only)
 **GSC baseline (last 3 months, 28 June to 27 September 2026, pulled Tuesday 29 September):**
 - Clicks: 0 · Impressions: 0 · CTR: 0% · Avg position: none

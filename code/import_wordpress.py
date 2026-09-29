@@ -92,6 +92,14 @@ CHANGES = [
     ("growth-os-managed-implementation", "<h1>A Done For You", "<h1>Managed Implementation: A Done For You", "Page name in the headline"),
     ("resources", "<h1>Growth Infrastructure Resources", "<h1>Growth Leaks Checklist and Growth Infrastructure Resources", "Page name in the headline"),
     ("fractional-growth-operator", "<h1>Fractional Growth Operator: The", "<h1>Fractional Growth Operator (Fractional COO): The", "Target keyword in the headline, owner approved fractional COO 29 September 2026"),
+    ("fractional-growth-operator",
+     '<h2>Frequently Asked Questions</h2>\n    </div>\n    <div class="sgs-faq">\n',
+     '<h2>Frequently Asked Questions</h2>\n    </div>\n    <div class="sgs-faq">\n'
+     '      <details>\n        <summary>Is a Fractional Growth Operator a fractional COO?</summary>\n'
+     '        <p>Yes, focused on your growth system. It is part-time, senior operating leadership for the parts of the business that bring in and convert revenue: KPIs, pipeline, follow-up, CRM adoption and accountability. It does not cover finance, HR or fulfilment.</p>\n      </details>\n'
+     '      <details>\n        <summary>How is this different from hiring a full-time or outsourced COO?</summary>\n'
+     '        <p>A full-time chief operating officer is a permanent executive hire. A Fractional Growth Operator is a part-time, outsourced COO role with a fixed operating cadence, starting at $5,500 a month with a 6-month minimum and no setup fee. Scope is confirmed before it starts.</p>\n      </details>\n',
+     "Two fractional COO FAQ answers, owner approved 29 September 2026"),
     ("soto-growth-os", "          Connect the systems that make growth possible", "          Soto Growth OS™: Connect the systems that make growth possible", "Page name in the headline"),
     # Facts corrected to match the calendar, phone and in-person meetings, owner approved 29 September 2026.
     ("book-a-strategy-call", "<p>Zoom. A link is included in your calendar confirmation", "<p>Google Meet. A link is included in your calendar confirmation", "Calendar uses Google Meet"),
