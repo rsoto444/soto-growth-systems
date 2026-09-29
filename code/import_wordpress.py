@@ -97,6 +97,8 @@ CHANGES = [
     ("contact", "<p>We don't publish a phone number. The fastest way", "<p>Yes, +1 833-854-0901, on business days in Mountain Time. The fastest way", "Phone is now published"),
     ("contact", "<p>All calls and meetings are held on Zoom. A meeting link", "<p>Strategy calls are held on Google Meet, and we also meet clients in person in Utah County and Salt Lake County. A meeting link", "Google Meet and in-person meetings"),
     ("contact", "and meetings are held on Zoom regardless of your location.", "and meet in person in Utah County and Salt Lake County, or on Google Meet anywhere else.", "Google Meet and in-person meetings"),
+    ("contact", "<p>No. All meetings are held on Zoom.</p>", "<p>Yes, in Utah County and Salt Lake County. Everywhere else, meetings are held on Google Meet.</p>", "In-person meetings, owner approved 29 September 2026"),
+    ("contact", "does not publish a street address or phone number.", "does not publish a street address.", "Phone is now published, owner approved 29 September 2026"),
     ("privacy-policy",
      "Last updated: June 3, 2026",
      "Last updated: September 28, 2026",
