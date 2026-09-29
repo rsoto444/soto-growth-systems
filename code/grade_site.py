@@ -111,7 +111,7 @@ def grade(url, h, all_titles, perf):
     # 15 readability / contrast. Footer and dark-section links were fixed on
     # 29 September 2026; the Resources number badges (#2563EB on #E9EFFD,
     # 4.48:1) still wait on the owner's colour call.
-    if 'class="sgs-mini-num"' in main: f.add("onpage:14:1")
+    if 'class="sgs-mini-num"' in main and ".sgsx-page .sgs-mini-num{color:#1D4ED8}" not in h: f.add("onpage:14:1")
     # ROUTED: needs keyword map / top-3 scan
     f.update(x for x in ROUTED if x.startswith("onpage"))
 

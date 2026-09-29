@@ -85,6 +85,13 @@ CHANGES = [
      "Calls are held on Zoom.",
      "Calls are held on Google Meet.",
      "The SGS Strategy Call calendar uses Google Meet; owner shown before/after"),
+    # Headline insertions, owner approved 29 September 2026: words added only.
+    ("about-rich", '<h1 id="about-rich-title">Build', '<h1 id="about-rich-title">Rich Soto: Build', "Page name in the headline"),
+    ("growth-os-implementation-draft-v2", "<h1>Growth OS Implementation, Built", "<h1>Growth OS Guided Implementation, Built", "Page name in the headline"),
+    ("growth-os-implementation", '<h1 id="implementation-title">Turn', '<h1 id="implementation-title">Growth OS Implementation: Turn', "Page name in the headline"),
+    ("growth-os-managed-implementation", "<h1>A Done For You", "<h1>Managed Implementation: A Done For You", "Page name in the headline"),
+    ("resources", "<h1>Growth Infrastructure Resources", "<h1>Growth Leaks Checklist and Growth Infrastructure Resources", "Page name in the headline"),
+    ("soto-growth-os", "          Connect the systems that make growth possible", "          Soto Growth OS™: Connect the systems that make growth possible", "Page name in the headline"),
     ("privacy-policy",
      "Last updated: June 3, 2026",
      "Last updated: September 28, 2026",

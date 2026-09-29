@@ -402,3 +402,11 @@ h1,h2,h3,h4,h5,h6{
 /* Links on the dark navy sections: lighter blue (7.4:1) plus an underline,
    owner approved. Buttons keep their own colours. */
 .sgs-sec--dark a:not(.sgs-btn){color:#60A5FA;text-decoration:underline;text-underline-offset:2px}
+/* Resources number badges: darker brand blue so they pass contrast
+   (#1D4ED8 on the pale badge; owner approved 29 September 2026). */
+.sgsx-page .sgs-mini-num,.sgsx-page .sgs-card .sgs-icon{color:#1D4ED8}
+/* About Rich and Soto Growth OS hero card: the page CSS sets this checklist
+   to #dbe4f0 on navy, but a later rule in the same page overrode it with
+   dark grey (1.8:1, broken on WordPress too). Restores the intended colours. */
+.sgsx-page .sgs-home-hero-card .sgs-home-checks li{color:#dbe4f0!important}
+.sgsx-page .sgs-home-hero-card .sgs-home-checks li:before{color:#86efac!important}

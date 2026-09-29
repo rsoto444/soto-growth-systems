@@ -61,39 +61,20 @@ No reviews, results, case studies or photos yet, which is accurate. First real r
 **Time:** later
 **Changes:** none until then.
 
-### [ ] 13. Approve 6 headline insertions · these headlines miss the page's own name
+### [x] 13. Approve 6 headline insertions · these headlines miss the page's own name
+Done 29 September, with your yes. 6 headlines now carry the page name; no other words changed.
 
-Smallest possible insertion, every other word kept. Say yes, or strike any:
-- About Rich: **"Rich Soto:"** + Build the growth system your business needs to operate with greater clarity
-- Guided: Growth OS **Guided** Implementation, Built With Your Team Not Around It
-- Growth OS Implementation: **"Growth OS Implementation:"** + Turn your growth roadmap into a working operating system
-- Managed: **"Managed Implementation:"** + A Done For You Growth Operating System, Built and Run by Soto Growth Systems
-- Resources: **"Growth Leaks Checklist and"** + Growth Infrastructure Resources for Owner-Led Businesses
-- Soto Growth OS: **"Soto Growth OS™:"** + Connect the systems that make growth possible
+### [x] 14. Your call: the numbered badges on Resources · 4.48:1, needs 4.5:1
+Done 29 September, with your yes. Badges and the matching card icons are #1D4ED8.
 
-**Who:** you approve, I change them
-**Time:** 5 min
-**Changes:** 6 headlines, words added only. Nothing else in the body.
-
-### [ ] 14. Your call: the numbered badges on Resources · 4.48:1, needs 4.5:1
-
-Blue #2563EB on the pale blue badge misses by a hair. Your darker hover blue #1D4ED8 passes and looks almost the same.
-
-**Who:** you decide, I change it
-**Time:** 2 min
-**Changes:** one colour on the Resources badges.
-
-### [ ] 15. Keep 4 page addresses as they are · they don't contain their keyword
-
-/about-rich/, /book-a-strategy-call/, /contact/ and /resources/ fail "keyword in the address". I recommend keeping them: Google already knows them, and moving them costs more than it gains. Say yes and I'll mark this as your decision.
-
-**Who:** you, one word
-**Time:** 1 min
-**Changes:** none.
+### [x] 15. Keep 4 page addresses as they are · they don't contain their keyword
+Done 29 September. Your decision: kept. Recorded as waived, owner decision.
 
 ## Waived
 
 - **Best practices 96 and "errors in the console", every page · crawler artifact.** The errors are this test machine failing its own certificate check on outside scripts (fonts, rank tracker) and a Vercel analytics file that only exists on the live host. Evidence: "net::ERR_CERT_AUTHORITY_INVALID" in the log; the same pages load clean in a normal browser. Re-check next run.
+
+- **Keep 4 addresses without their keyword · owner decision.** /about-rich/, /book-a-strategy-call/, /contact/, /resources/. Evidence: your "keep addresses", 29 September.
 
 ## AI-surface baseline · not run yet
 
@@ -115,3 +96,9 @@ Needs a person to ask ChatGPT, Perplexity and Google AI Mode your money question
 - Score 83 to 87 (raw 86, 1 waived). Issues 375 to 307. The rest need the keyword map, new writing or real proof.
 - Body sentences changed: 0. Nothing deleted.
 - Home lab scores (mobile): 89/96/96/100 to 98/100/96/100.
+
+## Fix pass 2 · 29 September 2026
+
+- Score 83 to 87 (raw 86, 2 waived). Issues 375 to 300.
+- 6 headlines got their page name (words added only), Resources badges and icons darkened, and the hero card checklist on About Rich and Soto Growth OS made readable again (its own CSS meant it to be light; a later rule turned it dark grey, on WordPress too).
+- Accessibility 100 on all 15 pages (lab, mobile). Body sentences changed: 0. Nothing deleted.
