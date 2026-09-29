@@ -20,9 +20,9 @@ KW = {
     "/growth-os-guided-implementation/": "guided implementation", "/growth-os-implementation-draft-v2/": "guided implementation", "/growth-os-implementation/": "growth os implementation",
     "/growth-os-managed-implementation/": "managed implementation", "/implementation-options/": "implementation options",
     "/privacy-policy/": "privacy policy", "/resources/": "growth leaks checklist", "/soto-growth-os/": "soto growth os",
-    "/terms-of-use/": "terms of use", "/construction-business-consultant/": "construction business consultant",
+    "/terms-of-use/": "terms of use", "/construction-business-consultant/": "construction business consultant", "/business-growth-consultant/": "business growth consultant",
 }
-OFFERS = {"/construction-business-consultant/", "/growth-os-implementation-draft-v2/", "/fractional-growth-operator/", "/growth-leak-assessment/", "/growth-os-blueprint/", "/growth-os-guided-implementation/",
+OFFERS = {"/business-growth-consultant/", "/construction-business-consultant/", "/growth-os-implementation-draft-v2/", "/fractional-growth-operator/", "/growth-leak-assessment/", "/growth-os-blueprint/", "/growth-os-guided-implementation/",
           "/growth-os-implementation/", "/growth-os-managed-implementation/", "/implementation-options/", "/soto-growth-os/"}
 LEGAL = {"/privacy-policy/", "/terms-of-use/"}
 # Checks that need a keyword map / top-3 scan: graded fail, routed.

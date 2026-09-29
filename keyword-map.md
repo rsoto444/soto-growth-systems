@@ -1,31 +1,12 @@
 # Your keyword map
 
-26 pages left to build, in order, and 2 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+25 pages left to build, in order, and 3 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
 
 ---
 
-# To build · 26
+# To build · 25
 
-# Service pages · 5
-
-## 3. Service page: Business growth consultant
-
-**Standalone**
-
-**Google check:** mixed, money page wins the term
-
-**Primary keyword**
-- business growth consultant · 720 searches a month · Easy to rank for (0 out of 100)
-
-**Secondary keywords**
-- growth consultant · 390 a month · Easy (0)
-- growth strategy consultant · 390 a month · Easy (0)
-- growth strategy consulting firm · 320 a month · Easy (0)
-- small business growth consultant · 50 a month · Easy (10)
-
-**Why here:** the plainest description of what SGS does, at zero difficulty. Google currently ranks LinkedIn and Instagram profiles for it, which is an open door for a real service page.
-
----
+# Service pages · 4
 
 ## 4. Service page: CRM consulting services
 
@@ -516,7 +497,7 @@
 
 ---
 
-# Written · 2
+# Written · 3
 
 ## 1. Service page: Fractional COO
 
@@ -566,6 +547,27 @@
 **Note:** Buyers here also search for a coach. The page says plainly that SGS is a consultant and operator, not a coach, and answers that search honestly.
 
 **Why here:** your lead industry, zero difficulty, and the ranking results are mostly one-person profiles and project consultants, so a focused page for contractor owners has a real opening.
+
+---
+
+## 3. Service page: Business growth consultant
+
+**Standalone**
+
+**Page:** /business-growth-consultant/ · draft, Tuesday 29 September 2026
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- business growth consultant · 720 searches a month · Easy to rank for (0 out of 100)
+
+**Secondary keywords**
+- growth consultant · 390 a month · Easy (0)
+- growth strategy consultant · 390 a month · Easy (0)
+- growth strategy consulting firm · 320 a month · Easy (0)
+- small business growth consultant · 50 a month · Easy (10)
+
+**Why here:** the plainest description of what SGS does, at zero difficulty. Google currently ranks LinkedIn and Instagram profiles for it, which is an open door for a real service page.
 
 ---
 

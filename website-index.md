@@ -4,9 +4,9 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: the contractors page waits on one real contractor example before it can go live.
+Next: both drafts wait on one real client example each before they can go live.
 
-# Drafts · 1
+# Drafts · 2
 
 ## Construction business consultant · service page
 
@@ -20,3 +20,16 @@ Next: the contractors page waits on one real contractor example before it can go
  - linked from the footer on every page
  - keyword-map row 2
 **Warnings:** written without real proof, scored 8 out of 10, so it stays off the live site. Send one real contractor example and it can go live.
+
+## Business growth consultant · service page
+
+**Route:**
+ - /business-growth-consultant/
+ - [preview](http://localhost:4321/business-growth-consultant/)
+**Cluster:** standalone
+**About:** the general money page for owner-led businesses, targeting "business growth consultant".
+**Status:**
+ - draft, Tuesday 29 September 2026
+ - footer link appears when it goes live
+ - keyword-map row 3
+**Warnings:** written without real proof, scored 8 out of 10, so it stays off the live site. Send one real client example and it can go live.
