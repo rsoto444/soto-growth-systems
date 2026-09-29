@@ -526,7 +526,7 @@
 
 **Standalone**
 
-**Page:** /construction-business-consultant/ · draft, Tuesday 29 September 2026
+**Page:** /construction-business-consultant/ · live, Tuesday 29 September 2026
 
 **Google check:** mixed, money page wins the term
 
@@ -554,7 +554,7 @@
 
 **Standalone**
 
-**Page:** /business-growth-consultant/ · draft, Tuesday 29 September 2026
+**Page:** /business-growth-consultant/ · live, Tuesday 29 September 2026
 
 **Google check:** mixed, money page wins the term
 

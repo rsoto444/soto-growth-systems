@@ -4,9 +4,9 @@
 
 Status: **Draft** (written, renders in preview) → **Published** (live, in the sitemap, submitted)
 
-Next: say "publish" to put both pages live.
+Next: request indexing for both new pages in Search Console.
 
-# Drafts · 2
+# Published · 2
 
 ## Construction business consultant · service page
 
@@ -16,10 +16,10 @@ Next: say "publish" to put both pages live.
 **Cluster:** standalone
 **About:** the money page for HVAC, plumbing, electrical, roofing, solar and concrete owners, targeting "construction business consultant".
 **Status:**
- - draft, Tuesday 29 September 2026
+ - published, Tuesday 29 September 2026
  - linked from the footer on every page
  - keyword-map row 2
-**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10, ready to publish.
+**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10.
 
 ## Business growth consultant · service page
 
@@ -29,7 +29,7 @@ Next: say "publish" to put both pages live.
 **Cluster:** standalone
 **About:** the general money page for owner-led businesses, targeting "business growth consultant".
 **Status:**
- - draft, Tuesday 29 September 2026
- - footer link appears when it goes live
+ - published, Tuesday 29 September 2026
+ - linked from the footer on every page
  - keyword-map row 3
-**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10, ready to publish.
+**Warnings:** one real example (your own booking-flow audit), no client numbers or reviews yet. Scored 9 out of 10.

@@ -54,11 +54,11 @@ NEW_PAGES = {
     "construction-business-consultant": ("Construction Business Consultant",
         "Construction Business Consultant for Contractors | SGS",
         "Construction business consultant for HVAC, plumbing, roofing and solar contractors: fix slow replies, lost estimates and CRM gaps. Diagnosis from $997.",
-        "2026-09-29", "draft"),  # 8/10, no proof yet: stays out of the live site
+        "2026-09-29", "live"),
     "business-growth-consultant": ("Business Growth Consultant",
         "Business Growth Consultant for Owner-Led Businesses | SGS",
         "Business growth consultant for owner-led businesses doing $500K+: we find the Growth Leaks costing you revenue and install the fix. Diagnosis from $997.",
-        "2026-09-29", "draft"),
+        "2026-09-29", "live"),
 }
 
 CHANGES = [
