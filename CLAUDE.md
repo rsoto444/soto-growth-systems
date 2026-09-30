@@ -238,3 +238,4 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 
 ### Open issues
 - **Resources page checklist form (checked Monday 28 September 2026):** the form "SGS - Resources - 10 Growth Leaks Checklist" (id N8UId4BuC3fa2010iD7a) lives in the SGS sub-account, so leads land in the right place. Only its embed link used the link.provoseopros.com white-label domain. The new site embeds the same form through the neutral api.leadconnectorhq.com address.
+- **Off-page skill (Wednesday 30 September 2026):** the owner's offpage-seo skill is installed at .claude/skills/offpage-seo (copied from the Provo SEO Pros repo). DataForSEO backlink data now works on this account, so backlink authority is available. Human-facing files from the skill follow this CLAUDE.md's formatting rules (no tables in files the owner reads). Nothing has been run for sotogrowthsystems.com yet.

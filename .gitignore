@@ -15,3 +15,7 @@ gsc-key.json
 # Python build artifacts
 __pycache__/
 *.pyc
+
+# off-page skill: cached DataForSEO responses and cost log
+offpage/*/raw/
+offpage/*/cost-log.csv
