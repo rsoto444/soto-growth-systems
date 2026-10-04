@@ -1,10 +1,10 @@
 # Your keyword map
 
-22 pages left to build, in order, and 7 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026, added to Sunday 4 October 2026.
+23 pages left to build, in order, and 7 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026, added to Sunday 4 October 2026.
 
 ---
 
-# To build · 22
+# To build · 23
 
 # Blog posts · 21
 
@@ -415,7 +415,7 @@
 
 ---
 
-# Service pages · 1
+# Service pages · 2
 
 ## 29. Service page: Business automation services
 
@@ -437,6 +437,26 @@
 **Note:** Results are scattered (service firms, software guides and a map pack), so secondaries are grouped by buyer wording, not by shared results. Automation here means inside the client's own systems, set up during implementation.
 
 **Why here:** the biggest new hiring search this run found, at zero difficulty, and automation is already part of every implementation level, so the page sells work SGS does today.
+
+---
+
+## 30. Service page: GoHighLevel expert
+
+**Standalone**
+
+**Google check:** passed
+
+**Primary keyword**
+- gohighlevel expert · 210 searches a month · Easy to rank for (9 out of 100)
+
+**Secondary keywords**
+- gohighlevel services · 140 a month · Easy (4)
+
+**Also ranks for:** gohighlevel experts, go high level expert, go high level experts, go high level services
+
+**Note:** Narrow family: 1 is everything with hiring intent. Google shows freelancers selling setup by the hour, so the page says plainly that SGS implements GoHighLevel for owner-led businesses and does not sell hourly setup gigs.
+
+**Why here:** GoHighLevel is the CRM SGS specializes in, both terms are easy, and nobody ranking today offers a full implementation for owner-led businesses.
 
 ---
 

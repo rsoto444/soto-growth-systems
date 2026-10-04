@@ -230,6 +230,7 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **CRM specialty:** GoHighLevel (owner, 29 September 2026). Pages never claim expertise in other CRMs. SGS runs its own website enquiries, booking calendar and pipeline on GoHighLevel.
 - **CRM migration (owner, 29 September 2026):** when moving a client onto GoHighLevel, SGS can bring over contacts from spreadsheets or phones, contacts from another CRM, open deals and their stage, past notes and history, and reconnect existing forms, phone numbers and calendars. What moves is confirmed per job in the scope.
 - **Process scope (owner, 29 September 2026):** process improvement covers the whole business: growth, job delivery, finance, HR and admin processes. SGS fixes the process (mapping, SOPs, workflows, automation, owners) through the same Assessment, Blueprint, Guided and Managed offers and prices. SGS never gives accounting, legal or HR advice. The Fractional Growth Operator stays growth-system only.
+- **GoHighLevel searches (owner, 4 October 2026):** owned by SGS, positioned as implementation for owner-led businesses, never hourly setup gigs.
 - **Never target:** appointment setting, SEO/ads/websites/social (that is Provo SEO Pros), jobs/careers/setter hiring, software shopping terms.
 - **Data:** DataForSEO login in .env (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). Semrush has no API units. Backlink authority not available, so blog posts use the flat difficulty ceiling of 30.
 
