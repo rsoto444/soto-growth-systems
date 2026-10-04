@@ -14,11 +14,11 @@ export const site = {
   // Booking calendar shown on /thank-you/: "SGS Strategy Call" (GoHighLevel,
   // SGS sub-account, 30 min, Google Meet). Replaced Calendly on 28 September 2026.
   bookingUrl: "https://api.leadconnectorhq.com/widget/booking/sYr1vrezeCL4qO8ts0wo",
-  scoreUrl: "https://growthleak.sotogrowthsystems.com/",
+  scoreUrl: "/growth-leak-score/",
   nav: [
     { label: "Home", href: "/" },
     { label: "About Rich", href: "/about-rich/" },
-    { label: "Free Growth Leak Score", href: "https://growthleak.sotogrowthsystems.com/" },
+    { label: "Free Growth Leak Score", href: "/growth-leak-score/" },
     { label: "Soto Growth OS™", href: "/soto-growth-os/" },
     { label: "Implementation Options", href: "/implementation-options/" },
   ],

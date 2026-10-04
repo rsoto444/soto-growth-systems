@@ -234,6 +234,12 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 - **Never target:** appointment setting, SEO/ads/websites/social (that is Provo SEO Pros), jobs/careers/setter hiring, software shopping terms.
 - **Data:** DataForSEO login in .env (DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD). Semrush has no API units. Backlink authority not available, so blog posts use the flat difficulty ceiling of 30.
 
+### Growth Leak Score (rebuilt Sunday 4 October 2026)
+- Lives at /growth-leak-score/ on this site (app/growth-leak-score, data in lib/growth-leak.ts, copied word for word from the old app). Score shows only after name, business email, company and privacy consent; phone and SMS consent optional.
+- Posts JSON to /api/lead with form = growth_leak_score plus growth_leak_score, growth_leak_label, growth_leak_top, growth_leak_answers. GoHighLevel workflow needs those mapped (Chrome prompt given 4 October).
+- growthleak.sotogrowthsystems.com is served by middleware.ts once the domain is moved to the soto-growth-systems Vercel project. Every site link now points at /growth-leak-score/.
+- The old separate app (unknown repo, Vercel only) emailed results and linked to Calendly. Retire it after the domain moves.
+
 ### Tracking
 - **SGS Rank Tracker:** yes. `<script defer src="https://sgs-rank-tracker.vercel.app/t.js" data-site="-UT66iPIFrb1"></script>` in the head of every page.
 

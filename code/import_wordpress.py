@@ -45,7 +45,9 @@ SEO_META = {
 MOVED = {"growth-os-implementation-draft-v2": "growth-os-guided-implementation"}
 
 # Links to pages that no longer exist, pointed at their replacement.
-LINK_FIXES = {'href="/book-assessment/"': 'href="/growth-leak-assessment/"'}
+LINK_FIXES = {'href="/book-assessment/"': 'href="/growth-leak-assessment/"',
+              # The score moved into this site on 4 October 2026 (/growth-leak-score/).
+              'href="https://growthleak.sotogrowthsystems.com/': 'href="/growth-leak-score/'}
 
 
 # (page slug, old text, new text, why)
