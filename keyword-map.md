@@ -1,10 +1,10 @@
 # Your keyword map
 
-21 pages left to build, in order, and 7 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026.
+22 pages left to build, in order, and 7 written. Every blog post is under difficulty 30, the ceiling for a new site (no authority score measured yet). US search data from DataForSEO, Tuesday 29 September 2026, added to Sunday 4 October 2026.
 
 ---
 
-# To build · 21
+# To build · 22
 
 # Blog posts · 21
 
@@ -415,6 +415,31 @@
 
 ---
 
+# Service pages · 1
+
+## 29. Service page: Business automation services
+
+**Standalone**
+
+**Google check:** mixed, money page wins the term
+
+**Primary keyword**
+- business automation services · 480 searches a month · Easy to rank for (0 out of 100)
+
+**Secondary keywords**
+- business process automation services · 210 a month · Easy (8)
+- business automation consultant · 170 a month · Easy (0)
+- business automation company · 170 a month · Easy (4)
+- business process automation consultant · 170 a month · Easy (0)
+
+**Also ranks for:** business automation service, business automation consultants, business automation consulting, business process automation consulting
+
+**Note:** Results are scattered (service firms, software guides and a map pack), so secondaries are grouped by buyer wording, not by shared results. Automation here means inside the client's own systems, set up during implementation.
+
+**Why here:** the biggest new hiring search this run found, at zero difficulty, and automation is already part of every implementation level, so the page sells work SGS does today.
+
+---
+
 # Written · 7
 
 ## 1. Service page: Fractional COO
@@ -460,7 +485,7 @@
 - hvac business consultant · 50 a month · Easy (0)
 - plumbing business consultant · 40 a month · Easy (0)
 
-**Also ranks for:** construction business consulting, contractor business coach
+**Also ranks for:** construction business consulting, contractor business coach, hvac business coaching, plumbing business coaching, hvac business consulting
 
 **Note:** Buyers here also search for a coach. The page says plainly that SGS is a consultant and operator, not a coach, and answers that search honestly.
 
@@ -577,7 +602,7 @@
 
 ---
 
-## Keywords saved for later · 33
+## Keywords saved for later · 35
 
 **Opens up as your site earns authority · 7 keywords**
 speed to lead · business consulting firms · what is an sop document · business management consulting company · pipeline management · what is a business kpi · kpi for business
@@ -587,7 +612,7 @@ speed to lead · business consulting firms · what is an sop document · busines
 business consultant utah · business consulting utah · business consultant salt lake city · business coach utah · how to grow an hvac business · how to grow a plumbing business · hvac business growth · how to grow a roofing business · sop writing services · sales process consultant
 + 3 more
 
-**Google shows something else for these · 13 keywords**
+**Google shows something else for these · 15 keywords**
 - sales consulting - the top results are job listings and personal profiles
 - what is a business consultant - Google shows LinkedIn profiles, not answers
 - construction consulting services - construction project consultants, a different service
@@ -599,5 +624,7 @@ business consultant utah · business consulting utah · business consultant salt
 - management consultant fees - random fee documents, not buyers
 - operations management consultant - personal profiles and job pages
 - what is a business scorecard - the corporate Balanced Scorecard, a different idea
+- hr onboarding process - HR teams reading guides, not owners hiring
+- solar companies going out of business - homeowners worried about their installer, not owners
 - crm for small business - software shoppers comparing CRM tools
 - how to start an hvac business - people starting a business, not established owners
