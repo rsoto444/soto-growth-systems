@@ -236,7 +236,7 @@ Soto Growth Systems (SGS), owner Rich Soto. Answers given in chat on Monday 28 S
 
 ### Growth Leak Score (rebuilt Sunday 4 October 2026)
 - Lives at /growth-leak-score/ on this site (app/growth-leak-score, data in lib/growth-leak.ts, copied word for word from the old app). Score shows only after name, business email, company and privacy consent; phone and SMS consent optional.
-- Posts JSON to /api/lead with form = growth_leak_score plus growth_leak_score, growth_leak_label, growth_leak_top, growth_leak_answers. GoHighLevel workflow needs those mapped (Chrome prompt given 4 October).
+- Posts JSON to /api/lead with form = growth_leak_score plus growth_leak_score, growth_leak_label, growth_leak_top, growth_leak_answers. Live Monday 5 October 2026. GoHighLevel (5 October): four contact fields in folder "Growth Leak Score" mapped in Create/Update Contact; both alert emails show score, label and top leaks; tag growth-leak-score added by an If/Else at the end of both existing paths (never right after Create Contact, which would skip the existing steps). Test contact check and the growthleak domain move still pending.
 - growthleak.sotogrowthsystems.com is served by middleware.ts once the domain is moved to the soto-growth-systems Vercel project. Every site link now points at /growth-leak-score/.
 - The old separate app (unknown repo, Vercel only) emailed results and linked to Calendly. Retire it after the domain moves.
 
