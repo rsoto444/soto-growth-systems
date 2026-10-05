@@ -17,6 +17,12 @@ export default function ScoreApp({ bookingUrl }: { bookingUrl: string }) {
   const [answers, setAnswers] = useState<number[]>(blank);
   const [step, setStep] = useState(0);
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
+  // A personal link from the prospecting console carries ?p=<token>, so the
+  // finished score can be attached to that prospect (see /api/lead).
+  const [prospectRef, setProspectRef] = useState("");
+  useEffect(() => {
+    setProspectRef(new URLSearchParams(window.location.search).get("p") ?? "");
+  }, []);
 
   // Pick up a half-finished assessment from this browser.
   useEffect(() => {
@@ -75,6 +81,9 @@ export default function ScoreApp({ bookingUrl }: { bookingUrl: string }) {
           growth_leak_label: band.label,
           growth_leak_top: top.map((l, i) => `${i + 1}. ${l.name} (${l.label}, ${l.leak}% leak)`).join("\n"),
           growth_leak_answers: LEAKS.map((l, i) => `${l.name}: ${l.answers.find((a) => a.value === answers[i])?.label ?? "No answer"}`).join("\n"),
+          ...(prospectRef
+            ? { prospect_ref: prospectRef, growth_leak_detail: top.map((l) => ({ name: l.name, label: l.label, leak: l.leak, nextMove: l.nextMove })) }
+            : {}),
         }),
       });
       if (!res.ok) throw new Error(String(res.status));

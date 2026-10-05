@@ -33,6 +33,11 @@ export async function POST(request: Request) {
     });
   }
 
+  // Personal score links from the prospecting console: keep the structured
+  // top-three for the console, out of the GoHighLevel payload.
+  const detail = payload.growth_leak_detail;
+  delete payload.growth_leak_detail;
+
   if (!site.leadWebhook) {
     return NextResponse.json({ ok: false, error: "Lead webhook not connected. Set LEAD_WEBHOOK_URL." }, { status: 503 });
   }
@@ -45,5 +50,32 @@ export async function POST(request: Request) {
   if (!res.ok) {
     return NextResponse.json({ ok: false, error: `Webhook responded ${res.status}` }, { status: 502 });
   }
+  if (payload.form === "growth_leak_score" && payload.prospect_ref) await sendToConsole(payload, detail);
   return done();
+}
+
+// Attaches a finished score to the prospect whose personal link was used, in
+// the prospecting console (prospecting.sotogrowthsystems.com). Never blocks the
+// lead: GoHighLevel already has it, so a console hiccup only loses the link-up.
+async function sendToConsole(payload: Record<string, unknown>, detail: unknown) {
+  const url = process.env.CONSOLE_GROWTH_LEAK_URL;
+  const secret = process.env.GROWTH_LEAK_SECRET;
+  if (!url || !secret) return;
+  try {
+    await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-sgs-secret": secret },
+      body: JSON.stringify({
+        token: String(payload.prospect_ref),
+        score: Number(payload.growth_leak_score),
+        label: payload.growth_leak_label,
+        top: Array.isArray(detail) ? detail : [],
+        answers: payload.growth_leak_answers,
+        name: payload.name,
+        email: payload.email,
+        company: payload.company_name,
+      }),
+      signal: AbortSignal.timeout(5000),
+    });
+  } catch {}
 }
