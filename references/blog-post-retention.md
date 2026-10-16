@@ -168,7 +168,7 @@ AI-cited content runs about 26% fresher than traditional organic results.
 
 # The humour trade-off, stated honestly
 
-Humour is the default in this repo and the rule is in CLAUDE.md. One finding belongs here as a counterweight.
+**Soto Growth Systems: the humour rule is OFF (see CLAUDE.md > My setup > Voice), so the trade-off below does not apply to this site's posts.** It is kept as research: it is the reason Soto's posts stay straight and credible. Humour is the default only in the Provo SEO Pros repo. One finding belongs here as a counterweight.
 
 **Eisend's meta-analysis of 369 correlations [E]:** humour has a large effect on attention and positive affect (r = 0.416), roughly twice as much effect on attitude-toward-the-content as attitude-toward-the-business - and it **significantly reduces perceived source credibility.**
 
