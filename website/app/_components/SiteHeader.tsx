@@ -1,11 +1,14 @@
 // Shared header: logo, the same five menu items as the WordPress site, one button.
 // The mobile menu is a plain <details>, so it works with no JavaScript.
 import { site } from "@/lib/site.config";
+import { publishedPosts } from "@/lib/blog-posts";
 
 const isExternal = (href: string) => href.startsWith("http");
 
 export default function SiteHeader() {
-  const links = site.nav.map((n) => (
+  // The Blog link appears only once something is published, so nobody is sent to an empty page.
+  const nav = publishedPosts().length ? [...site.nav, { label: "Blog", href: "/blog/" }] : site.nav;
+  const links = nav.map((n) => (
     <a key={n.href} href={n.href} {...(isExternal(n.href) ? { target: "_blank", rel: "noopener" } : {})}>{n.label}</a>
   ));
   return (

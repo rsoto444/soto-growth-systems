@@ -16,6 +16,8 @@ Have a site already? Start with `/audit`. Starting fresh? Start with `/keyword-r
 
 **Never make the user choose between implementations.** Ask only for things they have (a key, a webhook, a phone number) or real business calls (which city, which service). Never which engine, layout or library - pick the one that fits this repo, say what you picked in one line, move on.
 
+**Page gates run on Node (no Python needed).** `node code/check_page_done.mjs /route/`, `node code/check_page_rhythm.mjs /route/` and `node code/fetch_stock_photos.mjs "query"` replaced the Python versions of the same names. Their tests: `node --test code/tests/gates.test.mjs`. Blog posts live in `website/lib/blog-posts.ts` (see `/blog-post`).
+
 **No setup command, ever.** Every credential is just-in-time: each command checks its own prerequisites the FIRST time it runs and walks the user through connecting exactly what it needs, right there, then continues (`/keyword-research` and `/audit` → Semrush · `/publish` → GitHub + Vercel logins · `/build-website` → Pexels key + lead webhook · WordPress → Novamira). Commands record what's connected and the user's business facts in CLAUDE.md under "## My setup" (create it on first touch) so nothing gets asked twice.
 
 ## Hard rules

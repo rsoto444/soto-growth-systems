@@ -71,3 +71,45 @@ export function breadcrumbSchema(name: string, path: string) {
     ],
   };
 }
+
+// ---- Blog schema: Article (BlogPosting) with Rich as author and the business as publisher ----
+export function blogPostingSchema(p: { slug: string; title: string; description: string; date: string; updated?: string }) {
+  const url = `${site.url}/blog/${p.slug}/`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: p.title,
+    description: p.description,
+    datePublished: p.date,
+    dateModified: p.updated ?? p.date,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    image: `${site.url}/images/og.png`,
+    author: { "@id": FOUNDER_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: "en-US",
+  };
+}
+
+export function blogBreadcrumbSchema(title: string, path: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${site.url}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${site.url}/blog/` },
+      { "@type": "ListItem", position: 3, name: title, item: `${site.url}${path}` },
+    ],
+  };
+}
+
+export function blogIndexSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${site.url}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${site.url}/blog/` },
+    ],
+  };
+}
